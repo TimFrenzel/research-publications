@@ -66,56 +66,55 @@ This finding reframes the automation question entirely. *Should investment manag
 
 The compression of AI competitive advantages happens faster than most firms anticipate—open-source initiatives like FinGPT achieve Bloomberg-level performance at less than 0.01% of the cost, Moirai-MoE delivers 17% better performance with 65 times fewer parameters than traditional models, and Sentinel-2 satellite data that previously cost $10-400 per square kilometer now enables 16% alpha strategies at zero marginal cost. *What happens when sophisticated AI capabilities that provided multi-year moats become commoditized within quarters?* The answer depends entirely on organizational velocity: firms with mature governance frameworks, systematic change management programs, and disciplined MLOps capabilities will absorb new capabilities as incremental improvements and compound their advantages, while those without these foundations will find themselves permanently disadvantaged, unable to deploy even basic AI tools while competitors automate entire workflows. As we examine where AI creates value today, what emerges in the next 12 months, and what makes systems production-ready, remember that sustainable competitive advantage stems not from access to technology but from the organizational capability to deploy it at scale—**the great divergence has begun**, and the question is which side of it your organization will occupy.
 
-<div style="margin: 2.5rem 0; padding: 2rem; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 12px; border-left: 4px solid #0066cc;">
-  <h4 style="text-align: center; color: #2c3e50; margin-bottom: 1.75rem; font-size: 1.3rem; font-weight: 600;">Three Pillars of AI Success in Investment Management</h4>
-  
-  <div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-top: 1.5rem;">
-    
-    <div style="background: white; padding: 1.75rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-top: 3px solid #0066cc;">
-      <div style="text-align: center; margin-bottom: 1rem;">
-        <div style="width: 60px; height: 60px; background: #e3f2fd; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 1.75rem;">🔧</div>
-      </div>
-      <h5 style="color: #0066cc; text-align: center; margin-bottom: 0.75rem; font-size: 1.1rem; font-weight: 600;">Technical Capability</h5>
-      <p style="color: #555; font-size: 0.95rem; line-height: 1.6; text-align: center; margin: 0;"><em>What AI can do</em></p>
-      <ul style="color: #666; font-size: 0.9rem; line-height: 1.6; margin-top: 1rem; padding-left: 1.25rem;">
-        <li>Model performance & accuracy</li>
-        <li>Algorithm sophistication</li>
-        <li>Processing capabilities</li>
-      </ul>
-    </div>
-    
-    <div style="background: white; padding: 1.75rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-top: 3px solid #28a745;">
-      <div style="text-align: center; margin-bottom: 1rem;">
-        <div style="width: 60px; height: 60px; background: #e8f5e9; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 1.75rem;">🛡️</div>
-      </div>
-      <h5 style="color: #28a745; text-align: center; margin-bottom: 0.75rem; font-size: 1.1rem; font-weight: 600;">Operational Readiness</h5>
-      <p style="color: #555; font-size: 0.95rem; line-height: 1.6; text-align: center; margin: 0;"><em>How to deploy safely</em></p>
-      <ul style="color: #666; font-size: 0.9rem; line-height: 1.6; margin-top: 1rem; padding-left: 1.25rem;">
-        <li>99.9% uptime & monitoring</li>
-        <li>RAG for <2% hallucinations</li>
-        <li>Drift detection & validation</li>
-      </ul>
-    </div>
-    
-    <div style="background: white; padding: 1.75rem; border-radius: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.08); border-top: 3px solid #dc3545;">
-      <div style="text-align: center; margin-bottom: 1rem;">
-        <div style="width: 60px; height: 60px; background: #ffebee; border-radius: 50%; display: flex; align-items: center; justify-content: center; margin: 0 auto; font-size: 1.75rem;">⚡</div>
-      </div>
-      <h5 style="color: #dc3545; text-align: center; margin-bottom: 0.75rem; font-size: 1.1rem; font-weight: 600;">Organizational Discipline</h5>
-      <p style="color: #555; font-size: 0.95rem; line-height: 1.6; text-align: center; margin: 0;"><em>Converting capability to value</em></p>
-      <ul style="color: #666; font-size: 0.9rem; line-height: 1.6; margin-top: 1rem; padding-left: 1.25rem;">
-        <li>Change management velocity</li>
-        <li>Governance frameworks</li>
-        <li>60%+ user adoption at scale</li>
-      </ul>
-    </div>
-    
-  </div>
-  
-  <div style="margin-top: 1.5rem; padding: 1rem; background: #fff9e6; border-radius: 6px; border-left: 3px solid #ffc107;">
-    <p style="color: #856404; font-size: 0.95rem; line-height: 1.6; margin: 0; text-align: center;"><strong>Key Insight:</strong> Only 4% of firms successfully integrate all three pillars. Technology access is commoditized—organizational velocity determines the winners.</p>
-  </div>
-</div>
+:::: {style="margin: 2rem 0; padding: 2rem; background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 8px; border-left: 4px solid #0066cc;"}
+
+<h4 style="text-align: center; color: #2c3e50; margin-bottom: 1.5rem;">Three Pillars of AI Success in Investment Management</h4>
+
+::: {layout-ncol=3}
+
+::: {style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #0066cc;"}
+<center>🔧</center>
+
+**<center style="color: #0066cc;">Technical Capability</center>**
+
+<center>*What AI can do*</center>
+
+- Model performance & accuracy
+- Algorithm sophistication  
+- Processing capabilities
+:::
+
+::: {style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #28a745;"}
+<center>🛡️</center>
+
+**<center style="color: #28a745;">Operational Readiness</center>**
+
+<center>*How to deploy safely*</center>
+
+- 99.9% uptime & monitoring
+- RAG for <2% hallucinations
+- Drift detection & validation
+:::
+
+::: {style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #dc3545;"}
+<center>⚡</center>
+
+**<center style="color: #dc3545;">Organizational Discipline</center>**
+
+<center>*Converting capability to value*</center>
+
+- Change management velocity
+- Governance frameworks
+- 60%+ user adoption at scale
+:::
+
+:::
+
+::: {style="margin-top: 1.5rem; padding: 1rem; background: #fff9e6; border-radius: 6px; border-left: 3px solid #ffc107;"}
+<center>**Key Insight:** Only 4% of firms successfully integrate all three pillars. Technology access is commoditized—organizational velocity determines the winners.</center>
+:::
+
+::::
 
 ### The Performance Premium: Evidence from Production Deployments
 
