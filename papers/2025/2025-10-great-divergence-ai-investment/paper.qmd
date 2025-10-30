@@ -201,7 +201,6 @@ The question for allocators and managers is not whether these capabilities will 
 <div>• **Production Readiness Metrics**</div>
 <div>• **Human-in-Loop Economics**</div>
 <div>• **Regulatory Preparation**</div>
-<div>• **Governance vs Theater**</div>
 <div>• **Three Success Pillars**</div>
 </div>
 :::
@@ -239,24 +238,6 @@ The organizational transformation required for success challenges traditional as
 These thresholds derive from empirical observation across hundreds of deployments. Systems that achieve these metrics typically succeed; those that miss multiple thresholds usually fail regardless of algorithmic sophistication. *Why do adoption metrics predict success better than accuracy metrics?* Because unused AI systems generate zero value regardless of their theoretical capability.
 
 The monitoring infrastructure to track these metrics requires deliberate investment—typically 15-20% of model development budgets—yet firms that skip this investment face **46% higher failure rates** in production deployments. Leading firms track every model prediction against actual outcomes with automated alerts when performance degrades.
-
-### The Governance Maturity Model
-
-*What separates effective governance from expensive compliance theater?* Governance frameworks evolved from abstract principles to concrete structures with specific roles, timelines, and decision rights. The most effective frameworks share a common architecture that balances innovation with control.
-
-Singapore's MAS Project Mindforge established the **seven-dimensional framework** that Asian financial institutions now adopt as standard. The dimensions span fairness, ethics, accountability, transparency, robustness, data governance, and human oversight. Each dimension includes quantitative thresholds rather than qualitative guidelines. Fairness requires disparate impact ratios above 0.8. Transparency mandates that 90% of decisions must be explainable to regulators. Robustness sets 99.9% uptime as the minimum acceptable standard.
-
-Wells Fargo adapted the SR11-7 model risk management framework for generative AI with three validation pillars. **Conceptual soundness** requires documented training methodology with theoretical basis validated by independent reviewers. Performance validation establishes accuracy benchmarks with ongoing monitoring against thresholds. Process verification ensures appropriate use through human oversight at defined intervention points. The framework specifies that hallucination rates must remain below 2% for critical applications, 5% for non-critical uses, and 10% for research activities.
-
-The Investment Association UK identified twelve risk categories that comprehensive governance must address. Strategic planning risks emerge when firms lack clear AI objectives. Control environment risks arise from inadequate oversight structures. Data quality risks threaten model performance. Legal and compliance risks multiply with regulatory uncertainty. The framework provides specific mitigation strategies for each risk category with implementation timelines of 6-12 months for initial guidance and 1-2 years for full deployment.
-
-*What distinguishes effective governance from compliance theater?* The answer lies in decision velocity and business impact. BCG studied 57 asset managers representing $15 trillion in assets and found that 47% designed governance bodies but only 16% implemented actionable strategies. The successful 16% share three characteristics: governance accelerates rather than delays deployment, committees make resource allocation decisions not just risk assessments, and metrics focus on business outcomes not process compliance.
-
-The economic case for governance proves compelling. Firms with formal AI controls report 74% fewer costly rework cycles because issues surface during development rather than production. Compliance failures drop by 46% when governance frameworks catch problems before regulatory scrutiny. Project failure rates improve by 40% as governance ensures alignment between technical capabilities and business requirements. The typical firm achieves **10x ROI** on governance investments within three years through cost avoidance and accelerated deployment.
-
-The organizational structure for governance has standardized around a hub-and-spoke model. A central AI Council sets strategy and standards. Business unit AI Champions translate standards into domain-specific requirements. Technical teams implement controls within development workflows. Risk and compliance functions provide independent validation. This structure ensures consistency while it preserves business unit autonomy.
-
-JPMorgan exemplifies mature governance implementation. Their AI Research lab of 200 experts establishes technical standards. Business units maintain AI Product Managers who translate capabilities into applications. A central AI Ethics board reviews high-risk use cases. The firm processes millions of AI decisions daily while maintaining audit trails that satisfy regulators across 60 countries. Their governance framework enables rather than constrains innovation because clear guidelines reduce uncertainty and accelerate decision-making.
 
 ### Human-AI Collaboration Economics
 
