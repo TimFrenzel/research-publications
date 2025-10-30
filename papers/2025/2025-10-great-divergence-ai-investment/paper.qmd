@@ -542,25 +542,6 @@ The next twelve months will separate firms with production discipline from those
 </div>
 
 <div class="reference-category">
-<div class="category-header">Regulatory Bodies and Professional Associations</div>
-<div class="category-content">
-
-<div class="reference-item">CFA Institute. 2024. "Pensions in the Age of AI: Applications Across the Investment Value Chain." CFA Institute Research Foundation. <a href="https://www.cfainstitute.org/research/foundation" target="_blank">https://www.cfainstitute.org/research/foundation</a>.</div>
-
-<div class="reference-item">CFA Institute. 2025. "Explainable AI in Finance: A Practitioner's Guide." CFA Institute Research. <a href="https://www.cfainstitute.org/research" target="_blank">https://www.cfainstitute.org/research</a>.</div>
-
-<div class="reference-item">Financial Stability Board. 2025. "The Financial Stability Implications of Artificial Intelligence." FSB Publications. <a href="https://www.fsb.org/publications/" target="_blank">https://www.fsb.org/publications/</a>.</div>
-
-<div class="reference-item">Investment Association UK. 2024. "AI Adoption in UK Investment Management." <a href="https://www.theia.org/" target="_blank">https://www.theia.org/</a>.</div>
-
-<div class="reference-item">Monetary Authority of Singapore. 2025. "AI Governance Framework for Financial Services." <a href="https://www.mas.gov.sg/publications" target="_blank">https://www.mas.gov.sg/publications</a>.</div>
-
-<div class="reference-item">Organisation for Economic Co-operation and Development. 2023. "Generative Artificial Intelligence in Finance." <a href="https://www.oecd.org/en/publications" target="_blank">https://www.oecd.org/en/publications</a>.</div>
-
-</div>
-</div>
-
-<div class="reference-category">
 <div class="category-header">News Media and Financial Press</div>
 <div class="category-content">
 
@@ -609,15 +590,6 @@ The next twelve months will separate firms with production discipline from those
 <div class="reference-item">University of Michigan Online. n.d.b. "AI/ML in Investment Management: Key Value Drivers and Pitfalls." <a href="https://online.umich.edu/collections/artificial-intelligence/short/aiml-in-investment-management-drivers-and-pitfalls/" target="_blank">https://online.umich.edu/collections/artificial-intelligence/short/aiml-in-investment-management-drivers-and-pitfalls/</a>.</div>
 
 <div class="reference-item">ZHAW Zurich University of Applied Sciences. 2024. "AI in Portfolio Management: 3 Ways How Wealth Management Banks Benefit." Authored by C. Kunzle. <a href="https://blog.zhaw.ch/wealth-management/2024/04/10/3-ways-how-wealth-management-banks-benefit-from-ai-in-porftolio-management/" target="_blank">https://blog.zhaw.ch/wealth-management/2024/04/10/3-ways-how-wealth-management-banks-benefit-from-ai-in-porftolio-management/</a>.</div>
-
-</div>
-</div>
-
-<div class="reference-category">
-<div class="category-header">Professional Services and Legal Firms</div>
-<div class="category-content">
-
-<div class="reference-item">Frost Brown Todd. 2024. "Investment Management AI: New Opportunities." <a href="https://frostbrowntodd.com/" target="_blank">https://frostbrowntodd.com/</a>.</div>
 
 </div>
 </div>
