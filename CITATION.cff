@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use papers from this repository, please cite as below."
+authors:
+  - family-names: Frenzel
+    given-names: Tim
+title: "Research Publications: White Papers on AI, Quantitative Finance, and Data Science"
+version: 1.0.0
+date-released: 2025-10-30
+url: "https://github.com/TimFrenzel/research-publications"
+repository-code: "https://github.com/TimFrenzel/research-publications"
+keywords:
+  - artificial intelligence
+  - quantitative finance
+  - data science
+  - investment management
+  - machine learning
+  - white papers
+license: MIT
+
