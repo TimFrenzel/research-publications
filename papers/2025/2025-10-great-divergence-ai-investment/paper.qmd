@@ -404,20 +404,357 @@ The next twelve months will separate firms with production discipline from those
 
 ## References
 
-<details>
-<summary><strong>Complete Bibliography (99 sources) - Click to expand</strong></summary>
+<style>
+.references-container {
+  font-family: 'Times New Roman', Times, serif;
+  color: #000000;
+  line-height: 1.6;
+  margin-top: 2rem;
+}
 
-<div style="margin-top: 1.5rem;">
+.reference-category {
+  margin-bottom: 1.5rem;
+  border: 1px solid #cccccc;
+  border-radius: 4px;
+  background-color: #ffffff;
+}
 
-This white paper draws on academic research, industry reports, regulatory frameworks, and practitioner insights spanning 2019-2025. References are organized thematically for easier navigation.
+.category-header {
+  background-color: #f5f5f5;
+  padding: 1rem 1.25rem;
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 1.1rem;
+  border-bottom: 1px solid #cccccc;
+  user-select: none;
+}
 
-### Academic Research & Peer-Reviewed Studies
+.category-header:hover {
+  background-color: #eeeeee;
+}
 
-::: {#refs}
-:::
+.category-header::before {
+  content: '▶';
+  display: inline-block;
+  margin-right: 0.75rem;
+  transition: transform 0.3s;
+}
+
+.category-header.active::before {
+  transform: rotate(90deg);
+}
+
+.category-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease-out;
+  padding: 0 1.25rem;
+}
+
+.category-content.active {
+  max-height: 5000px;
+  padding: 1.25rem;
+  transition: max-height 0.5s ease-in;
+}
+
+.reference-item {
+  margin-bottom: 1rem;
+  padding-left: 2rem;
+  text-indent: -2rem;
+  font-size: 0.95rem;
+}
+
+.reference-item a {
+  color: #000000;
+  text-decoration: none;
+}
+
+.reference-item a:hover {
+  text-decoration: underline;
+}
+</style>
+
+<div class="references-container">
+
+<div class="reference-category">
+<div class="category-header">Academic Research and Peer-Reviewed Studies</div>
+<div class="category-content">
+
+<div class="reference-item">Bartram, S. M., J. Branke, and M. Motahari. 2019. "Artificial Intelligence in Asset Management." SSRN Electronic Journal. <a href="https://papers.ssrn.com/abstract=3510343" target="_blank">https://papers.ssrn.com/abstract=3510343</a>.</div>
+
+<div class="reference-item">Berti, A., and G. Kasneci. 2025. "TRADES: Transformer-Based Denoising Diffusion for Limit Order Book Simulations." arXiv preprint arXiv:2502.07071. <a href="https://arxiv.org/abs/2502.07071" target="_blank">https://arxiv.org/abs/2502.07071</a>.</div>
+
+<div class="reference-item">Gu, S., B. Kelly, and D. Xiu. 2020. "Empirical Asset Pricing via Machine Learning." The Review of Financial Studies 33 (5): 2223-73. <a href="https://doi.org/10.1093/rfs/hhaa009" target="_blank">https://doi.org/10.1093/rfs/hhaa009</a>.</div>
+
+<div class="reference-item">Joshi, S. 2025. "Generative AI in Portfolio Management: A Comprehensive Analysis." SSRN Electronic Journal. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5246289" target="_blank">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=5246289</a>.</div>
+
+<div class="reference-item">Kelly, B., S. Malamud, and K. Zhou. 2024. "The Virtue of Complexity in Return Prediction." The Journal of Finance 79 (1): 459-503. <a href="https://doi.org/10.1111/jofi.13298" target="_blank">https://doi.org/10.1111/jofi.13298</a>.</div>
+
+<div class="reference-item">Kim, A., M. Muhn, and V. Nikolaev. 2024. "Financial Statement Analysis with Large Language Models." Chicago Booth Research Paper 24-07. University of Chicago Booth School of Business. <a href="https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835311" target="_blank">https://papers.ssrn.com/sol3/papers.cfm?abstract_id=4835311</a>.</div>
+
+<div class="reference-item">Shi, Y., Z. Fu, S. Chen, B. Zhao, W. Xu, C. Zhang, and J. Li. 2025. "Kronos: A Foundation Model for the Language of Financial Markets." arXiv preprint arXiv:2508.02739. <a href="https://arxiv.org/abs/2508.02739" target="_blank">https://arxiv.org/abs/2508.02739</a>.</div>
+
+<div class="reference-item">Sutiene, K., P. Schwendner, C. Sipos, L. Lorenzo, M. Mirchev, P. Lameski, A. Kabasinskas, C. Tidjani, B. Ozturkkal, and J. Cerneviciene. 2024. "Enhancing Portfolio Management Using Artificial Intelligence: Literature Review." Frontiers in Artificial Intelligence 7. <a href="https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1371502/full" target="_blank">https://www.frontiersin.org/journals/artificial-intelligence/articles/10.3389/frai.2024.1371502/full</a>.</div>
+
+<div class="reference-item">Xie, Q., et al. 2024. "Open-FinLLMs: Open Multimodal Large Language Models for Financial Applications." arXiv preprint arXiv:2408.11878. <a href="https://arxiv.org/abs/2408.11878" target="_blank">https://arxiv.org/abs/2408.11878</a>.</div>
+
+<div class="reference-item">Yang, H., X. Y. Liu, and C. D. Wang. 2023. "FinGPT: Open-Source Financial Large Language Models." arXiv preprint arXiv:2306.06031. <a href="https://arxiv.org/abs/2306.06031" target="_blank">https://arxiv.org/abs/2306.06031</a>.</div>
+
+<div class="reference-item">Zhang, B., et al. 2024. "FinAgent: A Multimodal Foundation Agent for Financial Trading." arXiv preprint arXiv:2402.18485. <a href="https://arxiv.org/abs/2402.18485" target="_blank">https://arxiv.org/abs/2402.18485</a>.</div>
 
 </div>
-</details>
+</div>
 
-<!-- Force citation of all references for bibliography generation -->
-[@gu2020; @kelly2024; @yang2023; @zhang2024; @berti2025; @shi2025; @xie2024; @sutiene2024; @bartram2019; @fleiss2025; @inoru2025; @ibm2025agentic; @ibm2024genai; @bcg2024spending; @aws2024; @zhaw2024; @acadian2024; @vanguard2024genai; @leewayhertz2023; @solulab2023genai; @oecd2023; @theiaengine2023; @rothschild2023; @bcg2023genai; @blackrock_aladdin; @blackrock_ai; @jpmorgan_ai; @jpmorgan_private; @northern_trust_2030; @northern_trust_alternatives; @oliver_wyman2024; @bain2024pe; @deloitte_genai; @ey_genai; @goldman_sachs_genai; @moodys_usecases; @moodys_asset; @apex_group; @linedata; @enfusion; @efront; @google_cloud_usecases; @rogo_ai; @emerj; @driehaus; @robosoftin; @mdotm_transform; @mdotm_opportunities; @rapid_innovation; @umich_drivers; @umich_current; @towner2025; @ahsan2025; @krause2025; @australian2025; @reuters2025; @business_standard2025; @pymnts2025; @scmp2025; @alphasense2025; @wef2025; @spglobal2025funding; @lisowski2024; @alphasense2024; @international_banker2024; @trovato2024; @frostbrowntodd2024; @wef2024; @elerian2024; @solulab2024; @amell2024; @fintech_global2024; @spglobal2024pe; @lseg2023; @finextra2023; @investopedia_ai; @itransition; @acropolium; @netguru; @institutional_sc; @hubbis; @linkedin_ibrik; @investing_com; @techtarget; @trovato2024pwm; @fsb2025; @mas2025; @investmentassoc2024; @cfa2024pensions; @cfa2025explainable; @kim2024; @joshi2025; @asness2024; @man2024; @mercer2024; @bcg2024asset; @mckinsey2024]
+<div class="reference-category">
+<div class="category-header">Management Consulting and Industry Reports</div>
+<div class="category-content">
+
+<div class="reference-item">Bain & Company. 2024. "Harnessing Generative AI in Private Equity." <a href="https://www.bain.com/insights/harnessing-generative-ai-global-private-equity-report-2024/" target="_blank">https://www.bain.com/insights/harnessing-generative-ai-global-private-equity-report-2024/</a>.</div>
+
+<div class="reference-item">Boston Consulting Group. 2023. "How Asset Managers Can Transform with Generative AI." <a href="https://www.bcg.com/publications/2023/how-genai-can-transform-asset-management" target="_blank">https://www.bcg.com/publications/2023/how-genai-can-transform-asset-management</a>.</div>
+
+<div class="reference-item">Boston Consulting Group. 2024a. "Global Asset Management Report 2024." <a href="https://www.bcg.com/publications" target="_blank">https://www.bcg.com/publications</a>.</div>
+
+<div class="reference-item">Boston Consulting Group. 2024b. "IT Spending Pulse: As GenAI Investment Grows, Other IT Projects Get Squeezed." <a href="https://www.bcg.com/publications/2024/it-spending-pulse-as-genai-investment-grows-other-it-projects-get-squeezed" target="_blank">https://www.bcg.com/publications/2024/it-spending-pulse-as-genai-investment-grows-other-it-projects-get-squeezed</a>.</div>
+
+<div class="reference-item">Deloitte Luxembourg. n.d. "Generative AI: Is It All Hype or Reality—or Something in Between?" Performance Magazine. <a href="https://www.deloitte.com/lu/en/Industries/investment-management/blogs//a-guide-to-foreign-investment-in-india.html" target="_blank">https://www.deloitte.com/lu/en/Industries/investment-management/blogs/</a>.</div>
+
+<div class="reference-item">Ernst & Young. n.d. "Winning with GenAI in Wealth and Asset Management." <a href="https://www.ey.com/en-gl/industries/" target="_blank">https://www.ey.com/en-gl/industries/</a>.</div>
+
+<div class="reference-item">McKinsey & Company. 2024. "The State of AI in Asset Management." McKinsey Global Institute. <a href="https://www.mckinsey.com/industries/financial-services" target="_blank">https://www.mckinsey.com/industries/financial-services</a>.</div>
+
+<div class="reference-item">Mercer. 2024. "AI Adoption in Investment Management." <a href="https://www.mercer.com/insights/investments" target="_blank">https://www.mercer.com/insights/investments</a>.</div>
+
+<div class="reference-item">Oliver Wyman. n.d. "Deploying Generative AI in Wealth and Asset Management." Authored by J. Zwick, K. Kaczmarski, J. M. Rodrigues, J. Eibar, and C. Edelmann. <a href="https://www.oliverwyman.com/our-expertise/insights/2023/oct/morgan-stanley-oliver-wyman-wealth-asset-management-2023-gen-ai.html" target="_blank">https://www.oliverwyman.com/our-expertise/insights/2023/oct/morgan-stanley-oliver-wyman-wealth-asset-management-2023-gen-ai.html</a>.</div>
+
+</div>
+</div>
+
+<div class="reference-category">
+<div class="category-header">Financial Institutions and Asset Managers</div>
+<div class="category-content">
+
+<div class="reference-item">Acadian Asset Management. 2024. "Generative AI in Systematic Investing: The Sizzle and the Steak." <a href="https://www.acadian-asset.com/investment-insights/systematic-methods/generative-ai-in-systematic-investing-the-sizzle-and-the-steak" target="_blank">https://www.acadian-asset.com/investment-insights/systematic-methods/generative-ai-in-systematic-investing-the-sizzle-and-the-steak</a>.</div>
+
+<div class="reference-item">AQR Capital Management. 2024. "Machine Learning in Systematic Investing." Authored by Cliff Asness. <a href="https://www.aqr.com/Insights/Research" target="_blank">https://www.aqr.com/Insights/Research</a>.</div>
+
+<div class="reference-item">BlackRock. n.d.a. "Aladdin by BlackRock: Software for Portfolio Management." <a href="https://www.blackrock.com/aladdin" target="_blank">https://www.blackrock.com/aladdin</a>.</div>
+
+<div class="reference-item">BlackRock. n.d.b. "How AI Is Transforming Investing." Systematic Investing. <a href="https://www.blackrock.com/us/individual/insights/ai-investing" target="_blank">https://www.blackrock.com/us/individual/insights/ai-investing</a>.</div>
+
+<div class="reference-item">Driehaus Capital Management. n.d. "Artificial Intelligence in the Consumer and Financial Sectors." <a href="https://www.driehaus.com/perspectives/artificial-intelligence-in-the-consumer-and-financial-sectors" target="_blank">https://www.driehaus.com/perspectives/artificial-intelligence-in-the-consumer-and-financial-sectors</a>.</div>
+
+<div class="reference-item">Goldman Sachs. n.d. "Will the $1 Trillion of Generative AI Investment Pay Off?" <a href="https://www.goldmansachs.com/insights/articles/will-the-1-trillion-of-generative-ai-investment-pay-off" target="_blank">https://www.goldmansachs.com/insights/articles/will-the-1-trillion-of-generative-ai-investment-pay-off</a>.</div>
+
+<div class="reference-item">J.P. Morgan Asset Management. n.d.a. "Can Investment Management Harness the Power of AI?" <a href="https://am.jpmorgan.com/us/en/asset-management/adv/insights/market-insights/market-updates/on-the-minds-of-investors/can-investment-management-harness-the-power-of-ai/" target="_blank">https://am.jpmorgan.com/us/en/asset-management/adv/insights/market-insights/market-updates/on-the-minds-of-investors/can-investment-management-harness-the-power-of-ai/</a>.</div>
+
+<div class="reference-item">J.P. Morgan Private Bank. n.d.b. "How to Assess the Potential Impact of AI on Your Portfolio." <a href="https://privatebank.jpmorgan.com/nam/en/services/portfolio-management/sustainable-investing/insights/how-to-assess-the-potential-impact-of-ai-on-your-portfolio" target="_blank">https://privatebank.jpmorgan.com/nam/en/services/portfolio-management/sustainable-investing/insights/how-to-assess-the-potential-impact-of-ai-on-your-portfolio</a>.</div>
+
+<div class="reference-item">Man Group. 2024. "Annual Report 2024." <a href="https://www.man.com/annual-reports" target="_blank">https://www.man.com/annual-reports</a>.</div>
+
+<div class="reference-item">Northern Trust. n.d.a. "Investment Management in 2030: How Will Generative Artificial Intelligence (AI) Transform the Way Portfolio Managers Invest?" <a href="https://www.northerntrust.com/united-states/insights-research/asset-servicing/a-suite/insights-hub/investment-management-in-2030-generative-artificial-intelligence" target="_blank">https://www.northerntrust.com/united-states/insights-research/asset-servicing/a-suite/insights-hub/investment-management-in-2030-generative-artificial-intelligence</a>.</div>
+
+<div class="reference-item">Northern Trust. n.d.b. "Harnessing Generative AI for Alternative Asset Investing." <a href="https://www.northerntrust.com/united-states/insights-research/2024/asset-servicing/harnessing-generative-ai-for-alternative-asset-investing" target="_blank">https://www.northerntrust.com/united-states/insights-research/2024/asset-servicing/harnessing-generative-ai-for-alternative-asset-investing</a>.</div>
+
+<div class="reference-item">Rothschild Martin Maurel. 2023. "The Impact of Artificial Intelligence on Portfolio Management." <a href="https://www.rothschildandco.com/en/newsroom/insights/2023/08/rothschild-martin-maurel-the-impact-of-artificial-intelligence-on-portfolio-management/" target="_blank">https://www.rothschildandco.com/en/newsroom/insights/2023/08/rothschild-martin-maurel-the-impact-of-artificial-intelligence-on-portfolio-management/</a>.</div>
+
+<div class="reference-item">Vanguard. 2024. "Vanguard Unveils Generative AI Client Summaries for Financial Advisors." PR Newswire. <a href="https://www.prnewswire.com/news-releases/vanguard-unveils-generative-ai-client-summaries-for-financial-advisors-302445980.html" target="_blank">https://www.prnewswire.com/news-releases/vanguard-unveils-generative-ai-client-summaries-for-financial-advisors-302445980.html</a>.</div>
+
+</div>
+</div>
+
+<div class="reference-category">
+<div class="category-header">Technology Vendors and Cloud Providers</div>
+<div class="category-content">
+
+<div class="reference-item">Amazon Web Services. 2024. "AI-Powered Assistants for Investment Research with Multi-Modal Data: An Application of Amazon Bedrock Agents." AWS Machine Learning Blog. <a href="https://aws.amazon.com/blogs/machine-learning/ai-powered-assistants-for-investment-research-with-multi-modal-data-an-application-of-amazon-bedrock-agents/" target="_blank">https://aws.amazon.com/blogs/machine-learning/ai-powered-assistants-for-investment-research-with-multi-modal-data-an-application-of-amazon-bedrock-agents/</a>.</div>
+
+<div class="reference-item">Apex Group. n.d. "Generative AI in Asset Management: Top 4 Use Cases Explored." <a href="https://www.apexgroup.com/insights/generative-ai-in-asset-management-top-4-use-cases-explored/" target="_blank">https://www.apexgroup.com/insights/generative-ai-in-asset-management-top-4-use-cases-explored/</a>.</div>
+
+<div class="reference-item">eFront. n.d. "Introducing Generative AI by eFront: eFront Copilot." <a href="https://www.efront.com/en/alternative-investment-software/efront-copilot" target="_blank">https://www.efront.com/en/alternative-investment-software/efront-copilot</a>.</div>
+
+<div class="reference-item">Enfusion. n.d. "The Potential of Generative AI in Investment Management: Insights from Enfusion's Client Forum." <a href="https://www.enfusion.com/the-potential-of-generative-ai-in-investment-management-insights-from-enfusions-client-forum/" target="_blank">https://www.enfusion.com/the-potential-of-generative-ai-in-investment-management-insights-from-enfusions-client-forum/</a>.</div>
+
+<div class="reference-item">Google Cloud. n.d. "Real-World Gen AI Use Cases from the World's Leading Organizations." <a href="https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders" target="_blank">https://cloud.google.com/transform/101-real-world-generative-ai-use-cases-from-industry-leaders</a>.</div>
+
+<div class="reference-item">IBM. 2024. "Generative AI for Asset Management." <a href="https://www.ibm.com" target="_blank">https://www.ibm.com</a>.</div>
+
+<div class="reference-item">IBM. 2025. "Agentic AI Vs. Generative AI." <a href="https://www.ibm.com/think/topics/agentic-ai-vs-generative-ai" target="_blank">https://www.ibm.com/think/topics/agentic-ai-vs-generative-ai</a>.</div>
+
+<div class="reference-item">Linedata. n.d. "GenAI for Financial Services: Generative AI Solutions for Asset Managers & Private Markets." <a href="https://www.linedata.com/asset-managers/supercharge-your-operations-generative-ai-solutions-fund-managers-and-private" target="_blank">https://www.linedata.com/asset-managers/supercharge-your-operations-generative-ai-solutions-fund-managers-and-private</a>.</div>
+
+<div class="reference-item">Moody's. n.d.a. "Top GenAI Use Cases." <a href="https://www.moodys.com/web/en/us/creditview/blog/genai-use-cases-in-finance.html" target="_blank">https://www.moodys.com/web/en/us/creditview/blog/genai-use-cases-in-finance.html</a>.</div>
+
+<div class="reference-item">Moody's. n.d.b. "How Is GenAI Transforming Asset Management." <a href="https://www.moodys.com/web/en/us/creditview/blog/asset-management-and-ai.html" target="_blank">https://www.moodys.com/web/en/us/creditview/blog/asset-management-and-ai.html</a>.</div>
+
+<div class="reference-item">Rogo. n.d. "Rogo: Secure AI for Finance Professionals." <a href="https://rogo.ai/" target="_blank">https://rogo.ai/</a>.</div>
+
+</div>
+</div>
+
+<div class="reference-category">
+<div class="category-header">Regulatory Bodies and Professional Associations</div>
+<div class="category-content">
+
+<div class="reference-item">CFA Institute. 2024. "Pensions in the Age of AI: Applications Across the Investment Value Chain." CFA Institute Research Foundation. <a href="https://www.cfainstitute.org/research/foundation" target="_blank">https://www.cfainstitute.org/research/foundation</a>.</div>
+
+<div class="reference-item">CFA Institute. 2025. "Explainable AI in Finance: A Practitioner's Guide." CFA Institute Research. <a href="https://www.cfainstitute.org/research" target="_blank">https://www.cfainstitute.org/research</a>.</div>
+
+<div class="reference-item">Financial Stability Board. 2025. "The Financial Stability Implications of Artificial Intelligence." FSB Publications. <a href="https://www.fsb.org/publications/" target="_blank">https://www.fsb.org/publications/</a>.</div>
+
+<div class="reference-item">Investment Association UK. 2024. "AI Adoption in UK Investment Management." <a href="https://www.theia.org/" target="_blank">https://www.theia.org/</a>.</div>
+
+<div class="reference-item">Monetary Authority of Singapore. 2025. "AI Governance Framework for Financial Services." <a href="https://www.mas.gov.sg/publications" target="_blank">https://www.mas.gov.sg/publications</a>.</div>
+
+<div class="reference-item">Organisation for Economic Co-operation and Development. 2023. "Generative Artificial Intelligence in Finance." <a href="https://www.oecd.org/en/publications" target="_blank">https://www.oecd.org/en/publications</a>.</div>
+
+</div>
+</div>
+
+<div class="reference-category">
+<div class="category-header">News Media and Financial Press</div>
+<div class="category-content">
+
+<div class="reference-item">Business Standard. 2025. "GenAI Would've Built over a Billion Apps by 2028: IBM CEO Arvind Krishna." <a href="https://www.businessstandard.com/companies/news/" target="_blank">https://www.businessstandard.com/companies/news/</a>.</div>
+
+<div class="reference-item">El-Erian, M. 2024. "How Gen AI Will Change Asset Management." Financial Times. <a href="https://www.ft.com/content/3adbf2c0-80d5-4574-9a47-6a9672700077" target="_blank">https://www.ft.com/content/3adbf2c0-80d5-4574-9a47-6a9672700077</a>.</div>
+
+<div class="reference-item">Investor's Business Daily. 2025. "ServiceNow Discloses Artificial Intelligence Financial Target for 2026." Authored by R. Krause. <a href="https://www.investors.com/news/technology/servicenow-stock-artificial-intelligence-salesforce-stock-palantir-stock/" target="_blank">https://www.investors.com/news/technology/servicenow-stock-artificial-intelligence-salesforce-stock-palantir-stock/</a>.</div>
+
+<div class="reference-item">PYMNTS. 2025. "Rogo Raises $50 Million to Develop AI-Powered Investment Banker." <a href="https://www.pymnts.com/news/investment-tracker/2025/rogo-raises-50-million-dollars-develop-ai-powered-investment-banker/" target="_blank">https://www.pymnts.com/news/investment-tracker/2025/rogo-raises-50-million-dollars-develop-ai-powered-investment-banker/</a>.</div>
+
+<div class="reference-item">Reuters. 2025. "JPMorgan Says AI Helped Boost Sales, Add Clients." Arizona Daily Sun. <a href="https://azdailysun.com/" target="_blank">https://azdailysun.com/</a>.</div>
+
+<div class="reference-item">South China Morning Post. 2025. "GenAI Spending Can Unlock 'Co-Working' Potential in Financial Sector: Moody's." <a href="https://www.scmp.com/business/banking-finance/article/3307256/genai-investment-can-spur-co-working-potential-financial-industry-moodys-says" target="_blank">https://www.scmp.com/business/banking-finance/article/3307256/genai-investment-can-spur-co-working-potential-financial-industry-moodys-says</a>.</div>
+
+<div class="reference-item">The Australian. 2025. "How You Should Calculate the ROI in AI." <a href="https://www.theaustralian.com.au/business/cfo-journal/how-you-should-calculate-the-roi-in-ai/news-story/2d2ca6bd91c442f2c7d0a12379470eef" target="_blank">https://www.theaustralian.com.au/business/cfo-journal/how-you-should-calculate-the-roi-in-ai/news-story/2d2ca6bd91c442f2c7d0a12379470eef</a>.</div>
+
+</div>
+</div>
+
+<div class="reference-category">
+<div class="category-header">Market Intelligence and Analytics Platforms</div>
+<div class="category-content">
+
+<div class="reference-item">AlphaSense. 2024. "How Investment Teams Are Leveraging Generative AI to Enhance Research." <a href="https://www.alpha-sense.com/blog/product/investment-teams-leverage-generative-ai/" target="_blank">https://www.alpha-sense.com/blog/product/investment-teams-leverage-generative-ai/</a>.</div>
+
+<div class="reference-item">AlphaSense. 2025. "AI in Asset Management: Key Trends and Outlook for 2025." <a href="https://www.alpha-sense.com/blog/trends/ai-in-asset-management/" target="_blank">https://www.alpha-sense.com/blog/trends/ai-in-asset-management/</a>.</div>
+
+<div class="reference-item">Emerj. n.d. "Machine Learning in Investment Management and Asset Management: Current Applications." <a href="https://emerj.com/machine-learning-in-investment-management-and-asset-management/" target="_blank">https://emerj.com/machine-learning-in-investment-management-and-asset-management/</a>.</div>
+
+<div class="reference-item">LSEG. 2023. "How Might AI Impact Investment Management." <a href="https://www.lseg.com/en/insights/data-analytics/how-might-ai-impact-investment-management" target="_blank">https://www.lseg.com/en/insights/data-analytics/how-might-ai-impact-investment-management</a>.</div>
+
+<div class="reference-item">S&P Global Market Intelligence. 2024. "Private Equity-Backed Investment Surge in Generative AI Defies 2023 Deal Slump." <a href="https://www.spglobal.com/market-intelligence/en/news-insights/articles/2024/3/private-equity-backed-investment-surge-in-generative-ai-defies-2023-deal-slump-80625128" target="_blank">https://www.spglobal.com/market-intelligence/en/news-insights/articles/2024/3/private-equity-backed-investment-surge-in-generative-ai-defies-2023-deal-slump-80625128</a>.</div>
+
+<div class="reference-item">S&P Global Market Intelligence. 2025. "GenAI Funding Hits Record in 2024 Boosted by Infrastructure Interest." <a href="https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/1/genai-funding-hits-record-in-2024-boosted-by-infrastructure-interest-87132257" target="_blank">https://www.spglobal.com/market-intelligence/en/news-insights/articles/2025/1/genai-funding-hits-record-in-2024-boosted-by-infrastructure-interest-87132257</a>.</div>
+
+</div>
+</div>
+
+<div class="reference-category">
+<div class="category-header">Educational Resources and Universities</div>
+<div class="category-content">
+
+<div class="reference-item">University of Michigan Online. n.d.a. "AI/ML in Investment Management: Current Applications." <a href="https://online.umich.edu/collections/artificial-intelligence/short/ai-ml-in-investment-management-current-app/" target="_blank">https://online.umich.edu/collections/artificial-intelligence/short/ai-ml-in-investment-management-current-app/</a>.</div>
+
+<div class="reference-item">University of Michigan Online. n.d.b. "AI/ML in Investment Management: Key Value Drivers and Pitfalls." <a href="https://online.umich.edu/collections/artificial-intelligence/short/aiml-in-investment-management-drivers-and-pitfalls/" target="_blank">https://online.umich.edu/collections/artificial-intelligence/short/aiml-in-investment-management-drivers-and-pitfalls/</a>.</div>
+
+<div class="reference-item">ZHAW Zurich University of Applied Sciences. 2024. "AI in Portfolio Management: 3 Ways How Wealth Management Banks Benefit." Authored by C. Kunzle. <a href="https://blog.zhaw.ch/wealth-management/2024/04/10/3-ways-how-wealth-management-banks-benefit-from-ai-in-porftolio-management/" target="_blank">https://blog.zhaw.ch/wealth-management/2024/04/10/3-ways-how-wealth-management-banks-benefit-from-ai-in-porftolio-management/</a>.</div>
+
+</div>
+</div>
+
+<div class="reference-category">
+<div class="category-header">Professional Services and Legal Firms</div>
+<div class="category-content">
+
+<div class="reference-item">Frost Brown Todd. 2024. "Investment Management AI: New Opportunities." <a href="https://frostbrowntodd.com/" target="_blank">https://frostbrowntodd.com/</a>.</div>
+
+</div>
+</div>
+
+<div class="reference-category">
+<div class="category-header">Technology and Business Publications</div>
+<div class="category-content">
+
+<div class="reference-item">Acropolium. n.d. "AI in Portfolio Management: Use Cases & Benefits [2025 Guide]." <a href="https://acropolium.com/blog/employing-ai-for-portfolio-management-use-cases-solutions-case-studies/" target="_blank">https://acropolium.com/blog/employing-ai-for-portfolio-management-use-cases-solutions-case-studies/</a>.</div>
+
+<div class="reference-item">Ahsan, R. 2025. "How Citizens Bank Is Building GenAI with a Five-Year Vision, Not Just Quick Fixes." Tearsheet. <a href="https://tearsheet.co/artificial-intelligence/how-citizens-bank-is-building-genai-with-a-five-year-vision-not-just-quick-fixes/" target="_blank">https://tearsheet.co/artificial-intelligence/how-citizens-bank-is-building-genai-with-a-five-year-vision-not-just-quick-fixes/</a>.</div>
+
+<div class="reference-item">Amell, S. 2024. "The Future of Generative AI in Asset Management." Medium. <a href="https://medium.com/iamamellstephen/" target="_blank">https://medium.com/iamamellstephen/</a>.</div>
+
+<div class="reference-item">Finextra. 2023. "Generative AI Use Cases for Asset Management Firms." Authored by R. Poonjolai. <a href="https://www.finextra.com/blogposting/24754/generative-ai-use-cases-for-asset-management-firms" target="_blank">https://www.finextra.com/blogposting/24754/generative-ai-use-cases-for-asset-management-firms</a>.</div>
+
+<div class="reference-item">Fintech Global. 2024. "AI for Alpha Integrates GenAI into Its Investment Process." Authored by H. Slade. <a href="https://fintech.global/2024/02/19/ai-for-alpha-integrates-genai-into-its-investment-process/" target="_blank">https://fintech.global/2024/02/19/ai-for-alpha-integrates-genai-into-its-investment-process/</a>.</div>
+
+<div class="reference-item">Fleiss, A. 2025. "AI Mind & Hedge Fund Manager Dr Ernest Chan on GenAI for Trading & Asset Management Offers a Short Lecture for Fordham Gabelli 2025 Quant Conference Attendees." Rebellion Research. <a href="https://www.rebellionresearch.com/ai-mind-hedge-fund-manager-dr-ernest-chan-on-genai-for-trading-asset-managment-offers-a-short-lecture-for-fordham-gabelli-2025-quant-conference-attendees" target="_blank">https://www.rebellionresearch.com/ai-mind-hedge-fund-manager-dr-ernest-chan-on-genai-for-trading-asset-managment-offers-a-short-lecture-for-fordham-gabelli-2025-quant-conference-attendees</a>.</div>
+
+<div class="reference-item">Hubbis. n.d. "Generative Artificial Intelligence in Wealth Management." <a href="https://hubbis.com/article/generative-artificial-intelligence-in-wealth-management" target="_blank">https://hubbis.com/article/generative-artificial-intelligence-in-wealth-management</a>.</div>
+
+<div class="reference-item">Ibrik, N. L. n.d. "Harnessing Generative AI in Investment Management." LinkedIn. <a href="https://www.linkedin.com/pulse/harnessing-generative-ai-investment-management-nadine-lara-ibrik-0s8sf/" target="_blank">https://www.linkedin.com/pulse/harnessing-generative-ai-investment-management-nadine-lara-ibrik-0s8sf/</a>.</div>
+
+<div class="reference-item">Inoru. 2025. "AI in Portfolio Management: A Comprehensive Guide for Modern Investors in 2025." <a href="https://www.inoru.com/blog/ai-in-portfolio-management/" target="_blank">https://www.inoru.com/blog/ai-in-portfolio-management/</a>.</div>
+
+<div class="reference-item">Institutional Shareholder Services. n.d. "The Incredible Potential of Artificial Intelligence in Wealth Management." <a href="https://institutionalsc.trafficmanager.net/advisors/insights/topics/running-your-business/the-incredible-potential-of-artificial-intelligence-in-wealth-management" target="_blank">https://institutionalsc.trafficmanager.net/advisors/insights/topics/running-your-business/the-incredible-potential-of-artificial-intelligence-in-wealth-management</a>.</div>
+
+<div class="reference-item">International Banker. 2024. "How AI Is Dramatically Transforming the Wealth-Management Landscape." <a href="https://internationalbanker.com/technology/how-ai-is-dramatically-transforming-the-wealth-management-landscape/" target="_blank">https://internationalbanker.com/technology/how-ai-is-dramatically-transforming-the-wealth-management-landscape/</a>.</div>
+
+<div class="reference-item">Investopedia. n.d. "7 Unexpected Ways AI Can Transform Your Investment Strategy." <a href="https://www.investopedia.com/using-ai-to-transform-investment-strategy-8778945" target="_blank">https://www.investopedia.com/using-ai-to-transform-investment-strategy-8778945</a>.</div>
+
+<div class="reference-item">Investing.com. n.d. "Leveraging GenAI for Asset Management." <a href="https://www.investing.com/news/stock-market-news/leveraging-genai-for-asset-management-3632656" target="_blank">https://www.investing.com/news/stock-market-news/leveraging-genai-for-asset-management-3632656</a>.</div>
+
+<div class="reference-item">Itransition. n.d. "AI in Wealth Management: Use Cases, Tools, and Guidelines." <a href="https://www.itransition.com/ai/wealth-management" target="_blank">https://www.itransition.com/ai/wealth-management</a>.</div>
+
+<div class="reference-item">LeewayHertz. 2023. "AI in Portfolio Management: Use Cases, Applications, Benefits and Development." Authored by A. Takyar. <a href="https://www.leewayhertz.com/ai-for-portfolio-management/" target="_blank">https://www.leewayhertz.com/ai-for-portfolio-management/</a>.</div>
+
+<div class="reference-item">Lisowski, E. 2024. "Top 5 Gen AI Use Cases in Investment Management." Medium. <a href="https://medium.com/@elisowski/top-5-gen-ai-use-cases-in-investment-management-d755bf2b75cb" target="_blank">https://medium.com/@elisowski/top-5-gen-ai-use-cases-in-investment-management-d755bf2b75cb</a>.</div>
+
+<div class="reference-item">MDOTM. n.d.a. "Generative AI in Investment Management: Opportunities and Benefits." <a href="https://www.mdotm.ai/blog/generative-ai-in-investment-management-opportunities-and-benefits" target="_blank">https://www.mdotm.ai/blog/generative-ai-in-investment-management-opportunities-and-benefits</a>.</div>
+
+<div class="reference-item">MDOTM. n.d.b. "Investment Management: How AI Is Transforming the Industry." <a href="https://www.mdotm.ai/blog/revolutionizing-investment-management-how-ai-is-transforming-the-industry" target="_blank">https://www.mdotm.ai/blog/revolutionizing-investment-management-how-ai-is-transforming-the-industry</a>.</div>
+
+<div class="reference-item">Netguru. n.d. "AI in Wealth Management: Transforming Financial Planning and Investment Approaches." <a href="https://www.netguru.com/blog/ai-in-wealth-management" target="_blank">https://www.netguru.com/blog/ai-in-wealth-management</a>.</div>
+
+<div class="reference-item">PWM Net. 2024a. "Fear of Missing Out Drives GenAI Race in Wealth Management." Authored by E. Trovato. <a href="https://www.pwmnet.com/fear-of-missing-out-drives-genai-race-in-wealth-management" target="_blank">https://www.pwmnet.com/fear-of-missing-out-drives-genai-race-in-wealth-management</a>.</div>
+
+<div class="reference-item">PWM Net. 2024b. "GenAI Set to Transform Wealth Management Industry." Authored by E. Trovato. <a href="https://www.pwmnet.com/genai-set-to-transform-wealth-management-industry" target="_blank">https://www.pwmnet.com/genai-set-to-transform-wealth-management-industry</a>.</div>
+
+<div class="reference-item">Rapid Innovation. n.d. "Asset Management with Generative AI: Ultimate Guide." <a href="https://www.rapidinnovation.io/post/generative-ai-in-asset-management-application-benefits-best-practices-and-future" target="_blank">https://www.rapidinnovation.io/post/generative-ai-in-asset-management-application-benefits-best-practices-and-future</a>.</div>
+
+<div class="reference-item">Robosoftin. n.d. "Generative AI (GenAI) in Asset Management." Authored by B. Baruah. <a href="https://www.robosoftin.com/blog/genai-in-asset-management" target="_blank">https://www.robosoftin.com/blog/genai-in-asset-management</a>.</div>
+
+<div class="reference-item">SoluLab. 2023. "Unlocking Generative AI's Power in Asset Management." Authored by K. Wadhwani. <a href="https://www.solulab.com/generative-ai-in-asset-management/" target="_blank">https://www.solulab.com/generative-ai-in-asset-management/</a>.</div>
+
+<div class="reference-item">SoluLab. 2024. "A Brief Guide to AI in Portfolio Management." Authored by K. Wadhwani. <a href="https://www.solulab.com/ai-in-portfolio-management/" target="_blank">https://www.solulab.com/ai-in-portfolio-management/</a>.</div>
+
+<div class="reference-item">TechTarget. n.d. "Staying Nonprofit Could Slow, Not Stop, OpenAI Fundraising." <a href="https://www.techtarget.com/searchenterpriseai/news/366623668/Staying-nonprofit-could-slow-not-stop-OpenAI-fundraising" target="_blank">https://www.techtarget.com/searchenterpriseai/news/366623668/Staying-nonprofit-could-slow-not-stop-OpenAI-fundraising</a>.</div>
+
+<div class="reference-item">The IA Engine. 2023. "The Transformative Benefits of Generative AI for Asset Managers." Authored by A. Adedokun. <a href="https://www.theiaengine.com/member-news/the-transformative-benefits-of-generative-ai-for-asset-managers/" target="_blank">https://www.theiaengine.com/member-news/the-transformative-benefits-of-generative-ai-for-asset-managers/</a>.</div>
+
+<div class="reference-item">Towner, L. 2025. "AI, ML, and Automation in Asset Management: The Roadblocks to Implementation." FF News. <a href="https://ffnews.com/thought-leader/ai-ml-and-automation-in-asset-management-the-roadblocks-to-implementation/" target="_blank">https://ffnews.com/thought-leader/ai-ml-and-automation-in-asset-management-the-roadblocks-to-implementation/</a>.</div>
+
+<div class="reference-item">World Economic Forum. 2024. "Here's How Investors Are Navigating the Opportunities and Pitfalls of the AI Era." <a href="https://www.weforum.org/stories/2024/03/ai-investment-opportunities-risks/" target="_blank">https://www.weforum.org/stories/2024/03/ai-investment-opportunities-risks/</a>.</div>
+
+<div class="reference-item">World Economic Forum. 2025. "Investment Companies Can Use AI Responsibly to Gain an Edge." <a href="https://www.weforum.org/stories/2025/02/ai-redefine-investment-strategy-generate-value-financial-firms/" target="_blank">https://www.weforum.org/stories/2025/02/ai-redefine-investment-strategy-generate-value-financial-firms/</a>.</div>
+
+</div>
+</div>
+
+</div>
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  const headers = document.querySelectorAll('.category-header');
+  
+  headers.forEach(header => {
+    header.addEventListener('click', function() {
+      const content = this.nextElementSibling;
+      const isActive = content.classList.contains('active');
+      
+      // Toggle the clicked section
+      this.classList.toggle('active');
+      content.classList.toggle('active');
+    });
+  });
+});
+</script>
