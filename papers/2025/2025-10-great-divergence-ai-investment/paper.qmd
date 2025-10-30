@@ -37,10 +37,11 @@ The investment management industry confronts an unprecedented capability diverge
 
 ::: {.callout-note appearance="simple"}
 ## In This Section
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
+<div>• **Human-AI Collaboration**</div>
+<div>• **Capability Compression**</div>
 <div>• **Alpha Generation Evidence**</div>
 <div>• **Operational Efficiency Wins**</div>
-<div>• **Human-AI Collaboration**</div>
 <div>• **Build vs Buy**</div>
 <div>• **Workforce Transformation**</div>
 <div>• **Realistic ROI Expectations**</div>
