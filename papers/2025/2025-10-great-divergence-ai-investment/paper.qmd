@@ -125,10 +125,11 @@ As we examine what emerges in the next twelve months, remember that today's prod
 
 ::: {.callout-note appearance="simple"}
 ## In This Section
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
+<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
 <div>• **Autonomous Agent Systems**</div>
 <div>• **Open-Source Disruption**</div>
 <div>• **Synthetic Data Breakthroughs**</div>
+<div>• **Alternative Data Shift**</div>
 <div>• **Institutional Memory AI**</div>
 <div>• **Production-Ready Capabilities**</div>
 <div>• **12-18 Month Compression**</div>
