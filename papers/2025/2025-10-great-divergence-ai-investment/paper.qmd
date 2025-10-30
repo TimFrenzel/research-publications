@@ -195,10 +195,9 @@ The question for allocators and managers is not whether these capabilities will 
 
 ::: {.callout-note appearance="simple"}
 ## In This Section
-<div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
+<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
 <div>• **Hallucinations & RAG**</div>
 <div>• **Model Drift Monitoring**</div>
-<div>• **Governance Frameworks**</div>
 <div>• **Production Readiness Metrics**</div>
 <div>• **Human-in-Loop Economics**</div>
 <div>• **Regulatory Preparation**</div>
@@ -221,14 +220,6 @@ Beyond technical solutions, successful production deployment demands **organizat
 Can firms afford to implement these safeguards when speed determines competitive advantage? The question answers itself through consequence analysis. A single hallucination that triggers a regulatory violation can cost millions in fines. One fabricated research insight that leads to a failed investment strategy destroys client trust irrevocably. The firms that achieve sustainable AI value accept that reliability trumps speed.
 
 The production reality check reveals an essential truth: the technology works, but most organizations lack the operational maturity to deploy it safely. The 4% who succeed don't possess superior AI; they possess superior discipline. This discipline—monitoring for drift, validating through RAG, and maintaining human oversight—determines who captures AI's value versus who becomes its casualty.
-
-### The Governance Maturity Jump
-
-*Can governance frameworks keep pace with deployment velocity, or do they inevitably slow innovation?* The past 18 months witnessed governance frameworks evolve from abstract principles to concrete, implementable structures. Singapore's MAS Project Mindforge established a **seven-dimensional risk framework** that major banks including DBS, OCBC, and Standard Chartered now implement. Wells Fargo adapted the SR11-7 framework for generative AI with specific thresholds: hallucination rates below 2% for critical applications, 5% for non-critical uses, and 10% for research activities.
-
-*Why do these technical specifications matter for investment professionals?* Because 91% of AI models experience drift in production environments. Without continuous monitoring and retraining infrastructure, even the most sophisticated models degrade into expensive random number generators. The firms that built monitoring capabilities from inception report 74% fewer costly rework cycles and 46% fewer compliance failures than those who treated governance as an afterthought.
-
-The organizational transformation required for success challenges traditional assumptions about technology deployment. Research across 57 asset managers representing $15 trillion in assets under management reveals that successful firms allocate their resources in a **70/20/10 ratio**: 70% to people and processes, 20% to technology infrastructure, and only 10% to algorithm development. This inverts the typical allocation pattern where firms obsess over model architecture while they neglect the organizational capabilities required for deployment.
 
 ### Production Readiness Metrics Dashboard
 
