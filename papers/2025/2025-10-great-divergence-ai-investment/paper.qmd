@@ -270,11 +270,17 @@ The production reality check reveals an essential truth: the technology works, b
 
 *What specific metrics separate production AI systems from impressive demonstrations?* Investment firms that successfully deploy AI converge on similar **operational benchmarks** across three categories: technical reliability, user adoption, and business outcomes. Firms that track only technical metrics often celebrate engineering success while the business impact remains negligible.
 
-**Technical reliability thresholds:** Production systems require 99.9% uptime (less than nine hours of downtime annually), hallucination rates below 2% for critical applications, response latency under 500 milliseconds, and automated monitoring when accuracy degrades beyond 5%. **User adoption:** Successful deployments achieve 60% adoption within six months and 40%+ daily active usage. **Business outcomes:** Production systems deliver positive ROI within twelve months, 30%+ error rate reduction versus baseline processes, and 3x+ process acceleration.
+Production systems that achieve sustainable value converge on similar operational benchmarks across three categories:
 
-These thresholds derive from empirical observation across hundreds of deployments. Systems that achieve these metrics typically succeed; those that miss multiple thresholds usually fail regardless of algorithmic sophistication. *Why do adoption metrics predict success better than accuracy metrics?* Because unused AI systems generate zero value regardless of their theoretical capability.
+**Technical reliability:** 99.9% uptime (less than nine hours of downtime annually), hallucination rates below 2% for critical applications, response latency under 500 milliseconds, and automated monitoring when accuracy degrades beyond 5%.
 
-The monitoring infrastructure to track these metrics requires deliberate investment—typically 15-20% of model development budgets—yet firms that skip this investment face **46% higher failure rates** in production deployments. Leading firms track every model prediction against actual outcomes with automated alerts when performance degrades.
+**User adoption:** 60% adoption within six months and 40%+ daily active usage among target users.
+
+**Business outcomes:** Positive ROI within twelve months, 30%+ error rate reduction versus baseline processes, and 3x+ process acceleration.
+
+These thresholds derive from empirical observation across hundreds of deployments. Systems that achieve these metrics typically succeed, while those that miss multiple thresholds usually fail regardless of algorithmic sophistication. *Why do adoption metrics predict success better than accuracy metrics?* Because unused AI systems generate zero value regardless of their theoretical capability.
+
+The monitoring infrastructure to track these metrics requires deliberate investment, typically 15-20% of model development budgets. However, firms that skip this investment face **46% higher failure rates** in production deployments. Leading firms track every model prediction against actual outcomes with automated alerts when performance degrades.
 
 ### Human-AI Collaboration Economics
 
