@@ -34,22 +34,35 @@ jobs:
           # Find all paper.md or paper.qmd files and convert them
           find papers -type f \( -name "paper.md" -o -name "paper.qmd" \) | while read -r file; do
             dir=$(dirname "$file")
-            basename=$(basename "$file" | sed 's/\.[^.]*$//')
             paper_name=$(basename "$dir")
             year=$(basename "$(dirname "$dir")")
+            
+            echo "Processing: $file"
+            echo "Paper: $paper_name, Year: $year"
             
             # Create output directory
             mkdir -p "docs/papers/$year"
             
-            # Convert to HTML using Quarto
+            # Convert to HTML using Quarto (renders to same directory by default)
             if [ -f "$file" ]; then
-              quarto render "$file" --to html --output "../../docs/papers/$year/${paper_name}.html"
+              cd "$dir"
+              quarto render "$(basename "$file")" --to html
+              
+              # Move the generated HTML to docs folder
+              if [ -f "paper.html" ]; then
+                mv paper.html "../../../docs/papers/$year/${paper_name}.html"
+                echo "Moved HTML to docs/papers/$year/${paper_name}.html"
+              fi
               
               # Copy assets if they exist
-              if [ -d "$dir/assets" ]; then
-                mkdir -p "docs/papers/$year/${paper_name}_assets"
-                cp -r "$dir/assets/"* "docs/papers/$year/${paper_name}_assets/"
+              if [ -d "assets" ]; then
+                mkdir -p "../../../docs/papers/$year/${paper_name}_assets"
+                cp -r assets/* "../../../docs/papers/$year/${paper_name}_assets/" || true
+                echo "Copied assets"
               fi
+              
+              # Go back to repo root
+              cd - > /dev/null
             fi
           done
 
