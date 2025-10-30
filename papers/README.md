@@ -14,15 +14,17 @@ This directory contains all research publications organized chronologically.
 
 ## How to Navigate
 
-Each paper is stored in its respective year folder with the following naming convention:
+Each paper is organized in its own folder within the respective year, containing the paper and its assets:
 
 ```
-YYYY-MM-topic-title.md
+papers/YYYY/YYYY-MM-topic-title/
+├── paper.md       # Main white paper document
+└── assets/        # Figures, charts, and supporting materials
 ```
 
 For example:
-- `2025-01-ai-investment-management.md`
-- `2025-03-quantitative-risk-models.md`
+- `2025/2025-01-ai-investment-management/paper.md`
+- `2025/2025-03-quantitative-risk-models/paper.md`
 
 ## Paper Structure
 

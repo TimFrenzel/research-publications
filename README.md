@@ -9,15 +9,18 @@ My curated collection of white papers spanning AI applications, quantitative fin
 
 ## Repository Structure
 
-This repository organizes research publications by year and topic area:
+This repository organizes research publications by year and topic area. Each paper is self-contained with its own assets:
 
 ```
 research-publications/
 ├── papers/
-│   ├── 2024/          # Publications from 2024
-│   ├── 2025/          # Publications from 2025
-│   └── README.md      # Complete index of all papers
-└── assets/            # Supporting materials (figures, charts, data)
+│   ├── 2024/
+│   ├── 2025/
+│   │   └── 2025-01-topic-title/
+│   │       ├── paper.md           # Main white paper
+│   │       └── assets/            # Figures, charts, data
+│   └── README.md                  # Complete index of all papers
+└── WHITEPAPER_TEMPLATE.md         # Private (not in repo)
 ```
 
 ## Publications
