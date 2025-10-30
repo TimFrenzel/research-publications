@@ -5,8 +5,8 @@ This directory contains all research publications organized chronologically.
 ## 2025
 
 ### October 2025
-- **[The Great Divergence: AI's Transformation of Investment Management](2025/2025-10-great-divergence-ai-investment/paper.qmd)** *(In Progress)*  
-  Examining AI's transformative impact on investment management, capability divergence, and institutional adoption challenges.
+- **[The Great Divergence: AI's Transformation of Investment Management](2025/2025-10-great-divergence-ai-investment/paper.qmd)**  
+  Examining AI's transformative impact on investment management, capability divergence, and institutional adoption challenges. Comprehensive analysis covering current value creation, emerging capabilities, and production-ready governance frameworks.
 
 ## 2024
 
@@ -47,6 +47,6 @@ Papers are written in Markdown and can be:
 
 ---
 
-*Total Publications: 1 (in progress)*  
+*Total Publications: 1*  
 *Last Updated: October 30, 2025*
 
