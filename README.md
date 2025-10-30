@@ -25,6 +25,8 @@ research-publications/
 
 ## Publications
 
+**📄 View online:** [https://timfrenzel.github.io/research-publications/](https://timfrenzel.github.io/research-publications/)
+
 A comprehensive index of all papers is available in [`papers/README.md`](papers/README.md).
 
 ### Recent Work
@@ -45,6 +47,9 @@ All white papers follow a consistent structure:
 - Markdown/Quarto format for reproducibility
 - Evidence-based analysis with proper citations
 - Accessibility for both technical and non-technical audiences
+- Published as HTML via GitHub Pages
+
+**Publishing Guide:** See [PUBLISHING.md](PUBLISHING.md) for instructions on publishing your white papers to the web.
 
 ## Citation
 

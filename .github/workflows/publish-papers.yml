@@ -1,0 +1,67 @@
+name: Publish Papers to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - 'papers/**/*.qmd'
+      - 'papers/**/*.md'
+      - 'docs/**'
+
+  # Allow manual trigger
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Quarto
+        uses: quarto-dev/quarto-actions/setup@v2
+        with:
+          version: 1.4.550
+
+      - name: Convert papers to HTML
+        run: |
+          # Find all paper.md or paper.qmd files and convert them
+          find papers -type f \( -name "paper.md" -o -name "paper.qmd" \) | while read -r file; do
+            dir=$(dirname "$file")
+            basename=$(basename "$file" | sed 's/\.[^.]*$//')
+            paper_name=$(basename "$dir")
+            year=$(basename "$(dirname "$dir")")
+            
+            # Create output directory
+            mkdir -p "docs/papers/$year"
+            
+            # Convert to HTML using Quarto
+            if [ -f "$file" ]; then
+              quarto render "$file" --to html --output "../../docs/papers/$year/${paper_name}.html"
+              
+              # Copy assets if they exist
+              if [ -d "$dir/assets" ]; then
+                mkdir -p "docs/papers/$year/${paper_name}_assets"
+                cp -r "$dir/assets/"* "docs/papers/$year/${paper_name}_assets/"
+              fi
+            fi
+          done
+
+      - name: Setup Pages
+        uses: actions/configure-pages@v4
+
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: './docs'
+
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+

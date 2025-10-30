@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Research publications on AI, quantitative finance, and data science by Tim Frenzel">
+    <meta name="author" content="Tim Frenzel">
+    <title>Research Publications - Tim Frenzel</title>
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --text-color: #333;
+            --bg-color: #ffffff;
+            --border-color: #e1e4e8;
+            --hover-bg: #f6f8fa;
+        }
+        
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Helvetica Neue', Arial, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background-color: var(--bg-color);
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 2rem 1.5rem;
+        }
+        
+        header {
+            margin-bottom: 3rem;
+            padding-bottom: 2rem;
+            border-bottom: 2px solid var(--border-color);
+        }
+        
+        h1 {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .subtitle {
+            color: #666;
+            font-size: 1.1rem;
+            margin-bottom: 1rem;
+        }
+        
+        .author-info {
+            display: flex;
+            gap: 1.5rem;
+            margin-top: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .author-info a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-weight: 500;
+        }
+        
+        .author-info a:hover {
+            text-decoration: underline;
+        }
+        
+        .section {
+            margin-bottom: 3rem;
+        }
+        
+        h2 {
+            color: var(--primary-color);
+            font-size: 1.8rem;
+            margin-bottom: 1rem;
+            padding-bottom: 0.5rem;
+            border-bottom: 1px solid var(--border-color);
+        }
+        
+        .about {
+            background-color: var(--hover-bg);
+            padding: 1.5rem;
+            border-radius: 8px;
+            border-left: 4px solid var(--secondary-color);
+        }
+        
+        .research-areas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 1rem;
+            margin-top: 1rem;
+        }
+        
+        .research-card {
+            background-color: var(--hover-bg);
+            padding: 1rem;
+            border-radius: 6px;
+            border: 1px solid var(--border-color);
+        }
+        
+        .research-card h3 {
+            color: var(--primary-color);
+            font-size: 1.1rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .research-card p {
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        .papers-list {
+            list-style: none;
+        }
+        
+        .paper-item {
+            background-color: var(--bg-color);
+            border: 1px solid var(--border-color);
+            border-radius: 6px;
+            padding: 1.5rem;
+            margin-bottom: 1rem;
+            transition: box-shadow 0.2s ease;
+        }
+        
+        .paper-item:hover {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        
+        .paper-title {
+            color: var(--primary-color);
+            font-size: 1.3rem;
+            font-weight: 600;
+            margin-bottom: 0.5rem;
+        }
+        
+        .paper-title a {
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+        
+        .paper-title a:hover {
+            color: var(--secondary-color);
+        }
+        
+        .paper-meta {
+            color: #666;
+            font-size: 0.9rem;
+            margin-bottom: 0.5rem;
+        }
+        
+        .paper-description {
+            color: var(--text-color);
+            margin-bottom: 0.75rem;
+        }
+        
+        .paper-links {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+        }
+        
+        .paper-links a {
+            color: var(--secondary-color);
+            text-decoration: none;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        
+        .paper-links a:hover {
+            text-decoration: underline;
+        }
+        
+        .coming-soon {
+            text-align: center;
+            color: #666;
+            font-style: italic;
+            padding: 2rem;
+            background-color: var(--hover-bg);
+            border-radius: 6px;
+        }
+        
+        footer {
+            margin-top: 4rem;
+            padding-top: 2rem;
+            border-top: 1px solid var(--border-color);
+            text-align: center;
+            color: #666;
+            font-size: 0.9rem;
+        }
+        
+        footer a {
+            color: var(--secondary-color);
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 600px) {
+            body {
+                padding: 1rem;
+            }
+            
+            h1 {
+                font-size: 2rem;
+            }
+            
+            h2 {
+                font-size: 1.5rem;
+            }
+            
+            .research-areas {
+                grid-template-columns: 1fr;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Research Publications</h1>
+        <p class="subtitle">White Papers on AI, Quantitative Finance, and Data Science</p>
+        <div class="author-info">
+            <span><strong>Tim Frenzel</strong></span>
+            <a href="https://github.com/TimFrenzel" target="_blank">GitHub</a>
+            <a href="https://www.linkedin.com/in/tim-frenzel/" target="_blank">LinkedIn</a>
+        </div>
+    </header>
+
+    <section class="section">
+        <h2>About</h2>
+        <div class="about">
+            <p>My curated collection of white papers spanning AI applications, quantitative finance, and data science. Each publication follows academic standards while addressing real-world challenges in investment management and machine learning deployment. Designed for professionals, researchers, and decision-makers.</p>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Research Areas</h2>
+        <div class="research-areas">
+            <div class="research-card">
+                <h3>🤖 AI & Machine Learning</h3>
+                <p>Applications in financial markets, model governance, and production deployment</p>
+            </div>
+            <div class="research-card">
+                <h3>📊 Quantitative Finance</h3>
+                <p>Alpha generation, risk management, and portfolio optimization</p>
+            </div>
+            <div class="research-card">
+                <h3>📈 Data Science</h3>
+                <p>Statistical methods, predictive modeling, and analytical frameworks</p>
+            </div>
+            <div class="research-card">
+                <h3>💼 Investment Management</h3>
+                <p>Institutional decision-making and technology adoption</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <h2>Publications</h2>
+        <div class="coming-soon">
+            <p>Publications coming soon. Check back for updates.</p>
+        </div>
+        
+        <!-- Example paper structure (uncomment when you have papers):
+        <ul class="papers-list">
+            <li class="paper-item">
+                <div class="paper-title">
+                    <a href="papers/2025/2025-01-ai-investment-management.html">AI in Investment Management: Panel Preparation</a>
+                </div>
+                <div class="paper-meta">January 2025 • 3-page white paper</div>
+                <div class="paper-description">
+                    Comprehensive analysis of AI applications in investment management, covering current value creation, 
+                    12-month outlook, and governance frameworks for institutional adoption.
+                </div>
+                <div class="paper-links">
+                    <a href="papers/2025/2025-01-ai-investment-management.html">Read Paper</a>
+                    <a href="https://github.com/TimFrenzel/research-publications/blob/main/papers/2025/2025-01-ai-investment-management/paper.md">View Source</a>
+                </div>
+            </li>
+        </ul>
+        -->
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Tim Frenzel. Licensed under <a href="https://github.com/TimFrenzel/research-publications/blob/main/LICENSE" target="_blank">MIT License</a>.</p>
+        <p style="margin-top: 0.5rem;">
+            <a href="https://github.com/TimFrenzel/research-publications" target="_blank">View on GitHub</a>
+        </p>
+    </footer>
+</body>
+</html>
+
