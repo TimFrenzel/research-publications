@@ -38,13 +38,13 @@ The great divergence in investment management has begun. While 91% of asset mana
 ::: {.callout-note appearance="simple"}
 ## In This Section
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
-<div>• **Human-AI Collaboration**</div>
-<div>• **Capability Compression**</div>
-<div>• **Alpha Generation Evidence**</div>
-<div>• **Operational Efficiency Wins**</div>
+<div>• **Human Amplification**</div>
+<div>• **Velocity Imperative**</div>
+<div>• **Alpha Generation**</div>
+<div>• **Operational Efficiency**</div>
 <div>• **Build vs Buy**</div>
-<div>• **Workforce Transformation**</div>
-<div>• **Realistic ROI Expectations**</div>
+<div>• **Talent Transformation**</div>
+<div>• **Implementation Reality**</div>
 </div>
 :::
 
@@ -177,13 +177,13 @@ As we examine what emerges in the next twelve months, remember that today's prod
 ::: {.callout-note appearance="simple"}
 ## In This Section
 <div style="display: grid; grid-template-columns: repeat(4, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
-<div>• **Autonomous Agent Systems**</div>
-<div>• **Open-Source Disruption**</div>
-<div>• **Synthetic Data Breakthroughs**</div>
-<div>• **Alternative Data Shift**</div>
-<div>• **Institutional Memory AI**</div>
-<div>• **Production-Ready Capabilities**</div>
-<div>• **12-18 Month Compression**</div>
+<div>• **Autonomous Agents**</div>
+<div>• **Democratization Economics**</div>
+<div>• **Synthetic Data**</div>
+<div>• **Alternative Data**</div>
+<div>• **Knowledge Systems**</div>
+<div>• **Critical Thresholds**</div>
+<div>• **Compression Timeline**</div>
 </div>
 :::
 
@@ -245,12 +245,11 @@ The question for allocators and managers is not whether these capabilities will 
 
 ::: {.callout-note appearance="simple"}
 ## In This Section
-<div style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
-<div>• **Hallucinations & RAG**</div>
-<div>• **Model Drift Monitoring**</div>
-<div>• **Production Readiness Metrics**</div>
-<div>• **Human-in-Loop Economics**</div>
-<div>• **Three Success Pillars**</div>
+<div style="display: grid; grid-template-columns: repeat(2, 1fr); gap: 0.75rem; margin-top: 0.5rem;">
+<div>• **Production Reality**</div>
+<div>• **Readiness Metrics**</div>
+<div>• **Human-AI Collaboration**</div>
+<div>• **Integration Points**</div>
 </div>
 :::
 
