@@ -73,11 +73,11 @@ The compression of AI competitive advantages happens faster than most firms anti
 ::: {layout-ncol=3}
 
 ::: {style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #0066cc;"}
-<center>🔧</center>
+<div style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">🔧</div>
 
-**<center style="color: #0066cc;">Technical Capability</center>**
+<h5 style="color: #0066cc; text-align: center; font-weight: 600; margin-bottom: 0.75rem;">Technical Capability</h5>
 
-<center>*What AI can do*</center>
+<p style="text-align: center; font-style: italic; color: #666; margin-bottom: 1rem;">What AI can do</p>
 
 - Model performance & accuracy
 - Algorithm sophistication  
@@ -85,23 +85,23 @@ The compression of AI competitive advantages happens faster than most firms anti
 :::
 
 ::: {style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #28a745;"}
-<center>🛡️</center>
+<div style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">🛡️</div>
 
-**<center style="color: #28a745;">Operational Readiness</center>**
+<h5 style="color: #28a745; text-align: center; font-weight: 600; margin-bottom: 0.75rem;">Operational Readiness</h5>
 
-<center>*How to deploy safely*</center>
+<p style="text-align: center; font-style: italic; color: #666; margin-bottom: 1rem;">How to deploy safely</p>
 
 - 99.9% uptime & monitoring
-- RAG for <2% hallucinations
+- RAG for &lt;2% hallucinations
 - Drift detection & validation
 :::
 
 ::: {style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #dc3545;"}
-<center>⚡</center>
+<div style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">⚡</div>
 
-**<center style="color: #dc3545;">Organizational Discipline</center>**
+<h5 style="color: #dc3545; text-align: center; font-weight: 600; margin-bottom: 0.75rem;">Organizational Discipline</h5>
 
-<center>*Converting capability to value*</center>
+<p style="text-align: center; font-style: italic; color: #666; margin-bottom: 1rem;">Converting capability to value</p>
 
 - Change management velocity
 - Governance frameworks
@@ -111,7 +111,7 @@ The compression of AI competitive advantages happens faster than most firms anti
 :::
 
 ::: {style="margin-top: 1.5rem; padding: 1rem; background: #fff9e6; border-radius: 6px; border-left: 3px solid #ffc107;"}
-<center>**Key Insight:** Only 4% of firms successfully integrate all three pillars. Technology access is commoditized—organizational velocity determines the winners.</center>
+<p style="text-align: center; margin: 0;"><strong>Key Insight:</strong> Only 4% of firms successfully integrate all three pillars. Technology access is commoditized—organizational velocity determines the winners.</p>
 :::
 
 ::::
