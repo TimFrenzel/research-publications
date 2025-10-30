@@ -19,12 +19,12 @@ bibliography: references.bib
 
 ::: callout-note
 ## Executive Summary
-- While 91% of asset managers deploy or plan AI initiatives, only 4% capture substantial value—a chasm explained by organizational capability rather than technological access.
-- Production-ready AI systems require 99.9% uptime, <2% hallucination rates, and >60% user adoption within six months—thresholds that separate successful deployments from expensive experiments.
-- The next 12 months will see agentic AI architectures, multimodal processing, and open-source democratization compress competitive advantages from years to quarters.
-- Sustainable alpha generation clusters around 50-150% Sharpe ratio improvements and 15-30% risk-adjusted return enhancements, not the multiples claimed in marketing materials.
-- Human-AI collaboration generates 45% higher customer payoffs than pure automation, with trust rather than accuracy driving institutional adoption.
-- Governance maturity determines deployment velocity—firms with formal frameworks report 74% fewer rework cycles and 46% fewer compliance failures than those treating governance as afterthought.
+- **The great divergence has begun:** 91% of asset managers deploy AI, but only 4% extract meaningful value—a gap determined by organizational velocity, not technology access.
+- **Capability compression accelerates:** Open-source FinGPT matches Bloomberg Terminal performance at 0.01% of the cost; Moirai-MoE delivers 17% better results with 65x fewer parameters; Sentinel-2 enables 16% alpha strategies at zero marginal cost.
+- **Production readiness separates winners:** Success requires 99.9% uptime, <2% hallucination rates through RAG, continuous drift monitoring, and 60%+ user adoption within six months—discipline that only 4% achieve.
+- **Human-AI collaboration outperforms:** Hybrid approaches generate 45% higher customer payoffs than pure automation, with sustainable Sharpe ratio improvements of 50-150% among successful implementations.
+- **Next 12 months bring democratization:** Agentic architectures, multimodal models, and synthetic data generation will compress competitive advantages from years to quarters—making velocity the only differentiator.
+- **Three pillars determine success:** Technical capability (what AI can do), operational readiness (how to deploy safely), and organizational discipline (converting capability to value at scale).
 ::: 
 
 ## Abstract
