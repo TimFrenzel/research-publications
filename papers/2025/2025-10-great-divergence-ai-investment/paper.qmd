@@ -250,7 +250,6 @@ The question for allocators and managers is not whether these capabilities will 
 <div>• **Model Drift Monitoring**</div>
 <div>• **Production Readiness Metrics**</div>
 <div>• **Human-in-Loop Economics**</div>
-<div>• **Regulatory Preparation**</div>
 <div>• **Three Success Pillars**</div>
 </div>
 :::
@@ -300,16 +299,6 @@ Empirical evidence demonstrates that human-AI collaboration generates value exce
 Training requirements for effective collaboration differ from traditional education. Portfolio managers need AI literacy rather than engineering expertise. They must understand model limitations and confidence intervals. They need to recognize when to override AI recommendations versus when to defer. This training typically requires 40-80 hours over 3-6 months with ongoing reinforcement through practice.
 
 The generational dynamics add complexity. Younger employees embrace AI assistance but lack domain expertise to evaluate recommendations. Senior professionals possess deep market knowledge but resist algorithmic approaches. The most successful firms pair experienced managers with AI-native analysts in teams that combine wisdom with technical fluency.
-
-### The Reality of Regulatory Adaptation
-
-*How should firms prepare for regulations that don't yet exist?* Regulatory frameworks lag technological development by 2-3 years, which creates both opportunity and risk. The EU AI Act provides the clearest roadmap with requirements that phase in through 2027. Financial services face designation as "high-risk" applications with corresponding obligations for transparency, human oversight, and audit trails. Firms that build these capabilities proactively will transition smoothly while others scramble to retrofit compliance.
-
-The FSB's October 2025 monitoring framework signals enhanced scrutiny ahead. Regulators identify systemic risks from third-party concentration where 75% of UK financial firms rely on the same AI providers. They worry about herding behavior as similar models generate correlated trading signals. They fear contagion as interconnected AI systems could amplify market disruptions. The regulatory response will likely include diversification requirements and stress testing for AI-driven strategies.
-
-The practical implications for investment managers are clear. Maintain immutable audit trails for 5-7 years to satisfy investigation requirements. Document model decisions in language that non-technical regulators understand. Establish clear accountability chains that identify responsible humans for every AI decision. Build governance frameworks that demonstrate control without stifling innovation.
-
-CFA Institute's "Explainable AI in Finance" report provides a blueprint for industry self-regulation. The framework emphasizes outcomes over methods and principles over prescriptive rules. This approach allows technological evolution while maintaining fiduciary standards. Firms that adopt these frameworks voluntarily will shape rather than react to regulatory requirements.
 
 ### Integration Points for Success
 
