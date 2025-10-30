@@ -60,7 +60,7 @@ If you reference work from this repository, please cite appropriately:
 ## Contact & Links
 
 - **GitHub**: [@TimFrenzel](https://github.com/TimFrenzel)
-- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/timfrenzel) *(update with your actual LinkedIn)*
+- **LinkedIn**: [Connect with me](https://www.linkedin.com/in/tim-frenzel/)
 
 ## License
 
