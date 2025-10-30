@@ -73,7 +73,6 @@ The compression of AI competitive advantages happens faster than most firms anti
 ::: {layout-ncol=3}
 
 ::: {style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #0066cc;"}
-<div style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">🔧</div>
 
 <h5 style="color: #0066cc; text-align: center; font-weight: 600; margin-bottom: 0.75rem;">Technical Capability</h5>
 
@@ -85,7 +84,6 @@ The compression of AI competitive advantages happens faster than most firms anti
 :::
 
 ::: {style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #28a745;"}
-<div style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">🛡️</div>
 
 <h5 style="color: #28a745; text-align: center; font-weight: 600; margin-bottom: 0.75rem;">Operational Readiness</h5>
 
@@ -97,7 +95,6 @@ The compression of AI competitive advantages happens faster than most firms anti
 :::
 
 ::: {style="background: white; padding: 1.5rem; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); border-top: 3px solid #dc3545;"}
-<div style="text-align: center; font-size: 2.5rem; margin-bottom: 1rem;">⚡</div>
 
 <h5 style="color: #dc3545; text-align: center; font-weight: 600; margin-bottom: 0.75rem;">Organizational Discipline</h5>
 
