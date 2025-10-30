@@ -85,7 +85,7 @@ The answer depends on organizational velocity. Firms with mature governance fram
 
 As we examine where AI creates value today, what emerges in the next 12 months, and what makes systems production-ready, remember that sustainable competitive advantage stems not from access to technology but from the organizational capability to deploy it at scale. The great divergence has begun. The question is which side of it your organization will occupy.
 
-## Segment 1 – Value Today: Where You've Seen the Biggest Gains
+## Value Today: Where You've Seen the Biggest Gains
 
 ### The Performance Premium: Evidence from Production Deployments
 
@@ -160,7 +160,7 @@ The firms that capture value share three characteristics. First, they maintain r
 
 As we examine what emerges in the next twelve months, remember that today's production deployments establish the baseline for tomorrow's competition. The gains documented here will compress as capabilities democratize and strategies proliferate. The question is not whether these advantages will persist but how quickly firms must innovate to maintain their position. The evidence suggests the answer is: faster than most organizations can currently move.
 
-## Segment 2 – Next 12 Months: Emerging Capabilities That Shift Competitive Advantage
+## Next 12 Months: Emerging Capabilities That Shift Competitive Advantage
 
 ### From Copilots to Autonomous Agents
 
@@ -264,7 +264,7 @@ This compression means firms must innovate continuously or face obsolescence. Th
 
 The question for allocators and managers is not whether these capabilities will transform investment management but how quickly they can deploy them before advantages evaporate. The window for differentiation through technical capability alone closes rapidly. The firms that succeed will combine technical excellence with organizational agility to capture value before democratization eliminates the edge.
 
-## Segment 3 – Risk, Controls, and Governance: What Makes AI Production-Ready
+## Risk, Controls, and Governance: What Makes AI Production-Ready
 
 ### Production Readiness Metrics Dashboard
 
