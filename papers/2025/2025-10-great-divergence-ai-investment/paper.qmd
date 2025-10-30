@@ -392,12 +392,46 @@ The next twelve months will separate firms with production discipline from those
 
 ## References
 
-::: {#refs}
-:::
+<details>
+<summary><strong>📚 Click to expand full bibliography (99 sources)</strong></summary>
+
+<div style="margin-top: 1rem;">
+
+**Note:** This white paper draws on industry research, academic publications, and practitioner insights. References are organized thematically for easier navigation.
+
+### Academic Research & Peer-Reviewed Studies
+- Core machine learning and empirical asset pricing foundations
+- Financial AI applications and systematic methodologies
+- Open-source foundation models and specialized architectures
+
+### Professional Reports & Industry Analysis
+- Asset management and wealth management transformation studies
+- Investment bank research and consulting firm analyses
+- Regulatory frameworks and governance guidelines
+
+### Technology & Platform Documentation
+- Enterprise AI platforms and portfolio management systems
+- Cloud provider solutions and vendor implementations
+- Open-source frameworks and development tools
+
+### News, Media & Practitioner Insights
+- Industry trends and adoption patterns
+- Expert commentary and thought leadership
+- Market developments and funding dynamics
 
 ---
 
-**Note:** This white paper references industry knowledge, public announcements, and research from the sources listed below. For a complete bibliography of AI in investment management, see our [full reference collection](https://github.com/TimFrenzel/research-publications).
+### Complete Bibliography
+
+::: {#refs}
+:::
+
+</div>
+</details>
+
+<br>
+
+**💡 Access the full reference collection:** For detailed annotations and additional sources on AI in investment management, visit our [GitHub repository](https://github.com/TimFrenzel/research-publications).
 
 <!-- Force citation of all references for bibliography generation -->
 [@gu2020; @kelly2024; @yang2023; @zhang2024; @berti2025; @shi2025; @xie2024; @sutiene2024; @bartram2019; @fleiss2025; @inoru2025; @ibm2025agentic; @ibm2024genai; @bcg2024spending; @aws2024; @zhaw2024; @acadian2024; @vanguard2024genai; @leewayhertz2023; @solulab2023genai; @oecd2023; @theiaengine2023; @rothschild2023; @bcg2023genai; @blackrock_aladdin; @blackrock_ai; @jpmorgan_ai; @jpmorgan_private; @northern_trust_2030; @northern_trust_alternatives; @oliver_wyman2024; @bain2024pe; @deloitte_genai; @ey_genai; @goldman_sachs_genai; @moodys_usecases; @moodys_asset; @apex_group; @linedata; @enfusion; @efront; @google_cloud_usecases; @rogo_ai; @emerj; @driehaus; @robosoftin; @mdotm_transform; @mdotm_opportunities; @rapid_innovation; @umich_drivers; @umich_current; @towner2025; @ahsan2025; @krause2025; @australian2025; @reuters2025; @business_standard2025; @pymnts2025; @scmp2025; @alphasense2025; @wef2025; @spglobal2025funding; @lisowski2024; @alphasense2024; @international_banker2024; @trovato2024; @frostbrowntodd2024; @wef2024; @elerian2024; @solulab2024; @amell2024; @fintech_global2024; @spglobal2024pe; @lseg2023; @finextra2023; @investopedia_ai; @itransition; @acropolium; @netguru; @institutional_sc; @hubbis; @linkedin_ibrik; @investing_com; @techtarget; @trovato2024pwm; @fsb2025; @mas2025; @investmentassoc2024; @cfa2024pensions; @cfa2025explainable; @kim2024; @joshi2025; @asness2024; @man2024; @mercer2024; @bcg2024asset; @mckinsey2024]
