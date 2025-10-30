@@ -1,7 +1,6 @@
 # Research Publications
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](https://opensource.org/licenses/MIT)
-[![Papers](https://img.shields.io/badge/Papers-0-green.svg)](papers/)
 
 ## About
 

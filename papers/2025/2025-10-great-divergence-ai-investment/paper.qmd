@@ -1,0 +1,56 @@
+---
+title: "The Great Divergence: AI's Transformation of Investment Management"
+author: "Tim Frenzel"
+date: "2025-10-30"
+format:
+  html:
+    toc: true
+    toc-depth: 2
+    number-sections: false
+    theme: cosmo
+    css: styles.css
+    code-fold: false
+    embed-resources: true
+bibliography: references.bib
+---
+
+::: callout-note
+## Executive Summary
+- [Key insight 1 - to be provided]
+- [Key insight 2 - to be provided]
+- [Key insight 3 - to be provided]
+- [Key insight 4 - to be provided]
+- [Concluding framing point - to be provided]
+::: 
+
+## Abstract
+
+[Abstract content to be provided - 150-200 words]
+
+---
+
+## Introduction & Scene Setting
+
+[Content to be provided]
+
+## Section 2 Title
+
+[Content to be provided]
+
+## Section 3 Title
+
+[Content to be provided]
+
+## Section 4 Title
+
+[Content to be provided]
+
+## Key Takeaways
+
+[Content to be provided]
+
+## References
+
+::: {#refs}
+:::
+
