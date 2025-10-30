@@ -1,293 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<style>
-  .ai-impact-diagram {
-    background: #0a0a0a;
-    padding: 60px 40px;
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-    position: relative;
-    min-height: 600px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-
-  .diagram-container {
-    position: relative;
-    width: 100%;
-    max-width: 900px;
-    height: 600px;
-  }
-
-  /* Central Shape */
-  .central-shape {
-    position: absolute;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%, -50%);
-    width: 180px;
-    height: 450px;
-    background: linear-gradient(135deg, #f0f0f0 0%, #e8e8e8 50%, #f5f5f5 100%);
-    border-radius: 90px;
-    box-shadow: 0 10px 30px rgba(255, 255, 255, 0.1);
-    z-index: 2;
-  }
-
-  .central-shape::before {
-    content: '';
-    position: absolute;
-    inset: 15px;
-    background: linear-gradient(135deg, #fafafa 0%, #ffffff 100%);
-    border-radius: 75px;
-    opacity: 0.9;
-  }
-
-  /* Feature Items */
-  .feature-item {
-    position: absolute;
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .feature-circle {
-    width: 56px;
-    height: 56px;
-    border-radius: 50%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
-    position: relative;
-    z-index: 3;
-  }
-
-  .feature-label {
-    color: #a0a0a0;
-    font-size: 18px;
-    font-weight: 300;
-    white-space: nowrap;
-    max-width: 200px;
-  }
-
-  /* Positioning features */
-  .feature-1 {
-    top: 40px;
-    left: 60px;
-  }
-
-  .feature-2 {
-    top: 120px;
-    left: 60px;
-  }
-
-  .feature-3 {
-    top: 200px;
-    left: 60px;
-  }
-
-  .feature-4 {
-    top: 280px;
-    left: 60px;
-  }
-
-  .feature-5 {
-    top: 360px;
-    left: 60px;
-  }
-
-  .feature-6 {
-    top: 440px;
-    left: 60px;
-  }
-
-  /* Feature colors */
-  .feature-1 .feature-circle {
-    background: linear-gradient(135deg, #FFD93D 0%, #FFED4F 100%);
-  }
-
-  .feature-2 .feature-circle {
-    background: linear-gradient(135deg, #FF9F45 0%, #FFBD59 100%);
-  }
-
-  .feature-3 .feature-circle {
-    background: linear-gradient(135deg, #FF6B6B 0%, #FF8787 100%);
-  }
-
-  .feature-4 .feature-circle {
-    background: linear-gradient(135deg, #FF6EC7 0%, #FFA7E7 100%);
-  }
-
-  .feature-5 .feature-circle {
-    background: linear-gradient(135deg, #C873F4 0%, #E4A9FF 100%);
-  }
-
-  .feature-6 .feature-circle {
-    background: linear-gradient(135deg, #4ECDC4 0%, #6EE7DE 100%);
-  }
-
-  /* Connection Lines */
-  .connection-line {
-    position: absolute;
-    height: 2px;
-    transform-origin: left center;
-    z-index: 1;
-  }
-
-  .line-1 {
-    background: #FFD93D;
-    top: 68px;
-    left: 116px;
-    width: 340px;
-    transform: rotate(-12deg);
-  }
-
-  .line-2 {
-    background: #FF9F45;
-    top: 148px;
-    left: 116px;
-    width: 320px;
-    transform: rotate(-8deg);
-  }
-
-  .line-3 {
-    background: #FF6B6B;
-    top: 228px;
-    left: 116px;
-    width: 300px;
-    transform: rotate(-3deg);
-  }
-
-  .line-4 {
-    background: #FF6EC7;
-    top: 308px;
-    left: 116px;
-    width: 300px;
-    transform: rotate(3deg);
-  }
-
-  .line-5 {
-    background: #C873F4;
-    top: 388px;
-    left: 116px;
-    width: 320px;
-    transform: rotate(8deg);
-  }
-
-  .line-6 {
-    background: #4ECDC4;
-    top: 468px;
-    left: 116px;
-    width: 340px;
-    transform: rotate(12deg);
-  }
-
-  /* Right side output */
-  .output-item {
-    position: absolute;
-    right: 60px;
-    top: 50%;
-    transform: translateY(-50%);
-    display: flex;
-    align-items: center;
-    gap: 20px;
-  }
-
-  .output-circle {
-    width: 72px;
-    height: 72px;
-    border-radius: 50%;
-    background: linear-gradient(135deg, #e0e0e0 0%, #f5f5f5 100%);
-    border: 3px solid #888;
-    box-shadow: 0 4px 16px rgba(0, 0, 0, 0.3);
-    position: relative;
-    z-index: 3;
-  }
-
-  .output-label {
-    color: #a0a0a0;
-    font-size: 20px;
-    font-weight: 300;
-    white-space: nowrap;
-  }
-
-  /* Responsive adjustments */
-  @media (max-width: 768px) {
-    .feature-label, .output-label {
-      font-size: 14px;
-    }
-    
-    .feature-circle {
-      width: 48px;
-      height: 48px;
-    }
-    
-    .output-circle {
-      width: 60px;
-      height: 60px;
-    }
-    
-    .central-shape {
-      width: 140px;
-      height: 380px;
-    }
-  }
-</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Asset Management Diagram</title>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
+            background-color: white;
+            margin: 0;
+            padding: 40px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        
+        .diagram-container {
+            width: 900px;
+            height: 600px;
+            position: relative;
+        }
+        
+        .left-items {
+            position: absolute;
+            left: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            flex-direction: column;
+            gap: 35px;
+        }
+        
+        .item {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .item-box {
+            width: 12px;
+            height: 40px;
+            flex-shrink: 0;
+        }
+        
+        .item-text {
+            font-size: 15px;
+            color: #4a5568;
+            font-weight: 500;
+            white-space: nowrap;
+        }
+        
+        .center-shape {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            width: 140px;
+            height: 280px;
+            background: linear-gradient(135deg, #f7fafc 0%, #e2e8f0 100%);
+            border: 2px solid #cbd5e0;
+            clip-path: polygon(50% 0%, 100% 10%, 100% 90%, 50% 100%, 0% 90%, 0% 10%);
+        }
+        
+        .right-item {
+            position: absolute;
+            right: 0;
+            top: 50%;
+            transform: translateY(-50%);
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+        
+        .right-box {
+            width: 12px;
+            height: 40px;
+            background-color: #2d3748;
+        }
+        
+        .right-text {
+            font-size: 18px;
+            color: #2d3748;
+            font-weight: 600;
+        }
+        
+        .connection-line {
+            position: absolute;
+            height: 2px;
+            transform-origin: left center;
+        }
+        
+        /* Color scheme for items */
+        .item:nth-child(1) .item-box { background-color: #f6ad55; }
+        .item:nth-child(2) .item-box { background-color: #fc8181; }
+        .item:nth-child(3) .item-box { background-color: #f56565; }
+        .item:nth-child(4) .item-box { background-color: #b794f4; }
+        .item:nth-child(5) .item-box { background-color: #9f7aea; }
+        .item:nth-child(6) .item-box { background-color: #4fd1c5; }
+        
+        /* Connection lines with same colors */
+        .line-1 { background-color: #f6ad55; }
+        .line-2 { background-color: #fc8181; }
+        .line-3 { background-color: #f56565; }
+        .line-4 { background-color: #b794f4; }
+        .line-5 { background-color: #9f7aea; }
+        .line-6 { background-color: #4fd1c5; }
+        
+        /* SVG for curved connections */
+        svg {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            pointer-events: none;
+        }
+        
+        .path-line {
+            fill: none;
+            stroke-width: 2.5;
+            opacity: 0.8;
+        }
+    </style>
 </head>
 <body>
-<div class="ai-impact-diagram">
-  <div class="diagram-container">
-    <!-- Central Shape -->
-    <div class="central-shape"></div>
-    
-    <!-- Connection Lines -->
-    <div class="connection-line line-1"></div>
-    <div class="connection-line line-2"></div>
-    <div class="connection-line line-3"></div>
-    <div class="connection-line line-4"></div>
-    <div class="connection-line line-5"></div>
-    <div class="connection-line line-6"></div>
-    
-    <!-- Feature Items -->
-    <div class="feature-item feature-1">
-      <div class="feature-label">Enhanced Data<br>Analysis</div>
-      <div class="feature-circle"></div>
+    <div class="diagram-container">
+        <!-- Left side items -->
+        <div class="left-items">
+            <div class="item">
+                <div class="item-box"></div>
+                <div class="item-text">Enhanced Data<br>Analysis</div>
+            </div>
+            <div class="item">
+                <div class="item-box"></div>
+                <div class="item-text">Personalized<br>Investment<br>Strategies</div>
+            </div>
+            <div class="item">
+                <div class="item-box"></div>
+                <div class="item-text">Improved Risk<br>Management</div>
+            </div>
+            <div class="item">
+                <div class="item-box"></div>
+                <div class="item-text">Automation of<br>Routine Tasks</div>
+            </div>
+            <div class="item">
+                <div class="item-box"></div>
+                <div class="item-text">Enhanced<br>Compliance and<br>Reporting</div>
+            </div>
+            <div class="item">
+                <div class="item-box"></div>
+                <div class="item-text">Competitive<br>Advantage</div>
+            </div>
+        </div>
+        
+        <!-- Center shape -->
+        <div class="center-shape"></div>
+        
+        <!-- Right side item -->
+        <div class="right-item">
+            <div class="right-box"></div>
+            <div class="right-text">Enhanced Asset<br>Management</div>
+        </div>
+        
+        <!-- SVG for curved connection lines -->
+        <svg>
+            <!-- Enhanced Data Analysis -->
+            <path class="path-line" stroke="#f6ad55" d="M 190 95 Q 380 95, 430 300"/>
+            
+            <!-- Personalized Investment Strategies -->
+            <path class="path-line" stroke="#fc8181" d="M 190 170 Q 360 170, 430 300"/>
+            
+            <!-- Improved Risk Management -->
+            <path class="path-line" stroke="#f56565" d="M 190 245 Q 350 245, 430 300"/>
+            
+            <!-- Automation of Routine Tasks -->
+            <path class="path-line" stroke="#b794f4" d="M 190 320 Q 350 320, 430 300"/>
+            
+            <!-- Enhanced Compliance and Reporting -->
+            <path class="path-line" stroke="#9f7aea" d="M 190 395 Q 360 395, 430 300"/>
+            
+            <!-- Competitive Advantage -->
+            <path class="path-line" stroke="#4fd1c5" d="M 190 470 Q 380 470, 430 300"/>
+            
+            <!-- Center to right connection -->
+            <path class="path-line" stroke="#2d3748" stroke-width="3" d="M 500 300 L 680 300"/>
+        </svg>
     </div>
-    
-    <div class="feature-item feature-2">
-      <div class="feature-label">Personalized<br>Investment<br>Strategies</div>
-      <div class="feature-circle"></div>
-    </div>
-    
-    <div class="feature-item feature-3">
-      <div class="feature-label">Improved Risk<br>Management</div>
-      <div class="feature-circle"></div>
-    </div>
-    
-    <div class="feature-item feature-4">
-      <div class="feature-label">Automation of<br>Routine Tasks</div>
-      <div class="feature-circle"></div>
-    </div>
-    
-    <div class="feature-item feature-5">
-      <div class="feature-label">Enhanced<br>Compliance and<br>Reporting</div>
-      <div class="feature-circle"></div>
-    </div>
-    
-    <div class="feature-item feature-6">
-      <div class="feature-label">Competitive<br>Advantage</div>
-      <div class="feature-circle"></div>
-    </div>
-    
-    <!-- Output Item -->
-    <div class="output-item">
-      <div class="output-circle"></div>
-      <div class="output-label">Enhanced Asset<br>Management</div>
-    </div>
-  </div>
-</div>
 </body>
 </html>
