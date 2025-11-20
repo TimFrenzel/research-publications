@@ -1221,19 +1221,43 @@ Organizations must select specific tools that match their operational requiremen
 
 ### Feature Store Comparison
 
-**Feature stores** form the foundation of consistent ML pipelines by eliminating training-serving skew and enabling feature reuse across models. The choice between open-source and managed solutions determines both operational complexity and total cost of ownership.
+**Feature stores** form the foundation of consistent ML pipelines by eliminating training-serving skew and enabling feature reuse across models.
 
-| Criterion | Feast (Open Source) | Tecton (Managed) | Databricks Feature Store | Hopsworks |
+:::: {style="margin: 2rem 0; padding: 2rem; background: linear-gradient(135deg, #f8fafc 0%, #e0f2fe 100%); border-radius: 8px;"}
+
+<h4 style="text-align: center; color: #0c4a6e; margin-bottom: 1.5rem;">Feature Store Platform Comparison</h4>
+
+| Criterion | **Feast**<br/>(Open Source) | **Tecton**<br/>(Managed SaaS) | **Databricks**<br/>(Platform) | **Hopsworks**<br/>(Hybrid) |
 |-----------|---------------------|------------------|--------------------------|-----------|
-| **Deployment** | Self-hosted on any infrastructure | Fully managed SaaS | Integrated with Databricks platform | Managed or self-hosted |
-| **Online Latency** | 1-5ms (Redis/DynamoDB) | Sub-1s for real-time features | 5-10ms (integrated serving) | Sub-1ms (RonDB) |
-| **Offline Store** | S3, Snowflake, BigQuery | Managed Spark clusters | Delta Lake | Hopsworks File System |
-| **Setup Complexity** | High (requires infrastructure setup) | Low (managed service) | Low (if using Databricks) | Medium |
-| **Pricing Model** | Infrastructure costs only | $150k-$1M+ ACV, consumption-based | Bundled with Databricks | Custom enterprise pricing |
-| **ML Framework Support** | Framework agnostic | Framework agnostic | Spark/MLflow focused | Framework agnostic |
-| **Real-time Streaming** | Kafka/Kinesis integration | Native streaming support | Structured streaming | Kafka integration |
-| **Feature Versioning** | Git-based definitions | Managed versioning | MLflow integration | Full versioning support |
-| **Best For** | Teams with strong DevOps | Enterprises needing <1s freshness | Databricks-centric shops | High-performance requirements |
+| **Deployment** | Self-hosted on any infrastructure | Fully managed SaaS | Integrated with Databricks | Managed or self-hosted |
+| **Online Latency** | 1-5ms<br/>(Redis/DynamoDB) | Sub-1s real-time | 5-10ms<br/>(integrated) | **Sub-1ms**<br/>(RonDB) ⚡ |
+| **Offline Store** | S3, Snowflake, BigQuery | Managed Spark clusters | Delta Lake | Hopsworks FS |
+| **Setup Complexity** | ⚠️ **High**<br/>(infrastructure required) | ✅ **Low**<br/>(fully managed) | ✅ **Low**<br/>(if on Databricks) | ⚖️ Medium |
+| **Pricing Model** | Infrastructure costs only<br/>($10k-$50k/mo) | **$150k-$1M+ ACV**<br/>consumption-based | Bundled with Databricks | Custom enterprise |
+| **ML Framework** | Framework agnostic | Framework agnostic | Spark/MLflow focused | Framework agnostic |
+| **Real-time Streaming** | Kafka/Kinesis | Native streaming ✨ | Structured streaming | Kafka integration |
+| **Feature Versioning** | Git-based definitions | Managed versioning | MLflow integration | Full versioning |
+| **Best For** | 🛠️ **DevOps teams** | 🏢 **Enterprise**<br/>(sub-second freshness) | 📊 **Databricks shops** | ⚡ **High-performance**<br/>(trading) |
+
+: Comprehensive feature store comparison across deployment, performance, and cost dimensions
+
+::::
+
+::: {.callout-tip}
+## Total Cost of Ownership Analysis
+
+**Feast** (Open Source):
+- Infrastructure: $10k-$50k monthly for production workloads
+- Engineering: 1-2 FTE ML platform engineers ($200k-$600k annually)
+- **Total 3-year TCO:** $1.0M-$2.6M
+
+**Tecton** (Managed):
+- Platform licensing: $150k-$1M+ annually
+- Minimal engineering overhead
+- **Total 3-year TCO:** $450k-$3M+
+
+**Decision Factor:** Choose based on team capabilities and latency requirements, not just licensing costs.
+:::
 
 Feast requires organizations to provision and manage underlying infrastructure, which includes Redis or DynamoDB for online serving and S3 or Snowflake for offline storage. The **total cost of ownership** comprises infrastructure expenses (typically $10k-$50k monthly for production workloads) plus engineering salaries for 1-2 dedicated ML platform engineers. Organizations achieve full control over the deployment but accept operational responsibility.
 
@@ -1245,21 +1269,51 @@ Hopsworks emphasizes performance, with sub-millisecond latency through RonDB (a 
 
 ### Orchestration Platform Comparison
 
-**Orchestration platforms** automate ML pipeline execution, from data ingestion through model deployment. The selection balances general-purpose flexibility against ML-specific optimizations.
+**Orchestration platforms** automate ML pipeline execution, from data ingestion through model deployment.
 
-| Criterion | Apache Airflow | Kubeflow Pipelines | Prefect |
+:::: {style="margin: 2rem 0; padding: 2rem; background: linear-gradient(135deg, #fefce8 0%, #fef08a 100%); border-radius: 8px;"}
+
+<h4 style="text-align: center; color: #854d0e; margin-bottom: 1.5rem;">ML Pipeline Orchestration Platform Comparison</h4>
+
+| Criterion | **Apache Airflow** | **Kubeflow Pipelines** | **Prefect** |
 |-----------|----------------|--------------------|---------|
 | **Primary Focus** | General workflow orchestration | ML-specific pipelines | Modern Python workflows |
-| **Deployment Model** | Self-hosted or managed (MWAA, Cloud Composer) | Kubernetes-native | Cloud or self-hosted |
-| **Learning Curve** | Moderate (DAG syntax) | Steep (Kubernetes required) | Low (Python-native) |
-| **ML-Specific Features** | None (requires custom implementation) | Experiment tracking, metadata store | Basic ML support |
-| **Scalability** | Hundreds of tasks/DAG | Thousands of containers | Hundreds of tasks |
-| **Kubernetes Requirement** | Optional | Mandatory | Optional |
+| **Deployment** | Self-hosted or managed<br/>(MWAA, Cloud Composer) | Kubernetes-native | Cloud or self-hosted |
+| **Learning Curve** | ⚖️ **Moderate**<br/>(DAG syntax) | ⚠️ **Steep**<br/>(K8s required) | ✅ **Low**<br/>(Python-native) |
+| **ML Features** | None<br/>(custom implementation) | ✨ Experiment tracking<br/>Metadata store | Basic ML support |
+| **Scalability** | Hundreds of tasks/DAG | **Thousands** of containers | Hundreds of tasks |
+| **K8s Requirement** | ❌ Optional | ✅ **Mandatory** | ❌ Optional |
 | **UI/Monitoring** | Comprehensive web UI | KFP dashboard | Modern Prefect UI |
-| **Retry/Recovery** | Built-in task retries | Container-level retries | State-based recovery |
-| **Community/Maturity** | Very mature (2014), largest community | Mature (2018), ML-focused | Newer (2018), growing |
-| **Typical Cost (managed)** | $200-$1k/month (AWS MWAA) | Infrastructure only | $0 (open source) to $50k+ (Prefect Cloud) |
-| **Best For** | Mixed ETL + ML workloads | Kubernetes-native ML at scale | Python teams wanting simplicity |
+| **Retry/Recovery** | Built-in task retries | Container-level retries | **State-based** recovery ✨ |
+| **Community** | 🏆 **Very mature** (2014)<br/>Largest community | Mature (2018)<br/>ML-focused | Newer (2018)<br/>Growing |
+| **Managed Cost** | $200-$1k/mo<br/>(AWS MWAA) | Infrastructure only | $0 to $50k+<br/>(Prefect Cloud) |
+| **Best For** | 📊 **Mixed ETL + ML**<br/>workloads | ☸️ **Kubernetes-native**<br/>ML at scale | 🐍 **Python teams**<br/>wanting simplicity |
+
+: Orchestration platform comparison balancing general-purpose flexibility vs. ML-specific optimizations
+
+::::
+
+::: {.callout-note}
+## Platform Selection Guidelines
+
+**Choose Airflow when:**
+- You have mixed ETL and ML workloads
+- Team already has Airflow expertise
+- Need mature ecosystem with extensive integrations
+- Batch-oriented pipelines (not real-time streaming)
+
+**Choose Kubeflow when:**
+- Standardized on Kubernetes infrastructure
+- Large-scale ML with heavy GPU utilization
+- Need fine-grained resource management
+- Computer vision/NLP with distributed training
+
+**Choose Prefect when:**
+- Python-native team without K8s experience
+- Rapid prototyping and experimentation
+- Need state-based recovery and retry logic
+- Simpler deployment without orchestration overhead
+:::
 
 Apache Airflow dominates the orchestration landscape with the broadest adoption and most extensive integration ecosystem. The platform orchestrates over 500,000 DAGs (Directed Acyclic Graphs) daily across thousands of organizations. Airflow excels at mixed workloads that combine traditional ETL with ML pipelines, and its rich collection of operators connects to databases, cloud services, and data processing frameworks through well-tested interfaces.
 
