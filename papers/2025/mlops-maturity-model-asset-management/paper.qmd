@@ -3,6 +3,7 @@ title: "MLOps Maturity Models for Asset Management"
 subtitle: "A Technical Framework for Production Machine Learning"
 author: "Tim Frenzel"
 date: "2025-11-20"
+version: "1.0"
 format:
   html:
     toc: true
@@ -17,6 +18,8 @@ format:
     max-width: 1400px
     fig-cap-location: bottom
     tbl-cap-location: top
+execute:
+  enabled: false
 ---
 
 ::: {.callout-note}
