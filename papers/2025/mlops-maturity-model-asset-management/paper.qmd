@@ -17,6 +17,8 @@ format:
     max-width: 1400px
     fig-cap-location: bottom
     tbl-cap-location: top
+execute:
+  enabled: false
 ---
 
 ::: {.callout-note}
